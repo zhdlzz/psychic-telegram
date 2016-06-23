@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		104B6BBB1D1BC7D500594FE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6BBA1D1BC7D500594FE9 /* main.m */; };
+		104B6BC91D1BC7D500594FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104B6BC71D1BC7D500594FE9 /* LaunchScreen.storyboard */; };
+		104B6BD31D1BC88100594FE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6BD21D1BC88100594FE9 /* AppDelegate.m */; };
+		104B6BDF1D1BC89D00594FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104B6BDA1D1BC89D00594FE9 /* Assets.xcassets */; };
+		104B6BE41D1BD14100594FE9 /* UIColor+ZhaoChe.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6BE31D1BD14100594FE9 /* UIColor+ZhaoChe.m */; };
+		6880AAA75774EF40CD03CD2E /* libPods-ZhaoChe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6285E279A045B2DF78E2564F /* libPods-ZhaoChe.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		104B6BB61D1BC7D500594FE9 /* ZhaoChe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhaoChe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		104B6BBA1D1BC7D500594FE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		104B6BC81D1BC7D500594FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		104B6BCA1D1BC7D500594FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		104B6BD11D1BC88100594FE9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		104B6BD21D1BC88100594FE9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		104B6BDA1D1BC89D00594FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		104B6BE01D1BCDA900594FE9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		104B6BE11D1BCFFB00594FE9 /* AppMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacros.h; sourceTree = "<group>"; };
+		104B6BE21D1BD14100594FE9 /* UIColor+ZhaoChe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZhaoChe.h"; sourceTree = "<group>"; };
+		104B6BE31D1BD14100594FE9 /* UIColor+ZhaoChe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZhaoChe.m"; sourceTree = "<group>"; };
+		3CB5B7975390EE19120B2C6D /* Pods-ZhaoChe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhaoChe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhaoChe/Pods-ZhaoChe.debug.xcconfig"; sourceTree = "<group>"; };
+		6285E279A045B2DF78E2564F /* libPods-ZhaoChe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZhaoChe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F622F029A89A87AD9252E140 /* Pods-ZhaoChe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhaoChe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhaoChe/Pods-ZhaoChe.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		104B6BB31D1BC7D500594FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6880AAA75774EF40CD03CD2E /* libPods-ZhaoChe.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		104B6BAD1D1BC7D500594FE9 = {
+			isa = PBXGroup;
+			children = (
+				104B6BB81D1BC7D500594FE9 /* ZhaoChe */,
+				104B6BB71D1BC7D500594FE9 /* Products */,
+				E7CB5144C0E78B417496F4CB /* Pods */,
+				2BFEDDA0CFE94F9AC521C33C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		104B6BB71D1BC7D500594FE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				104B6BB61D1BC7D500594FE9 /* ZhaoChe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		104B6BB81D1BC7D500594FE9 /* ZhaoChe */ = {
+			isa = PBXGroup;
+			children = (
+				104B6BD01D1BC88100594FE9 /* Application */,
+				104B6BD41D1BC88C00594FE9 /* Categories */,
+				104B6BD51D1BC89D00594FE9 /* Managers */,
+				104B6BD61D1BC89D00594FE9 /* TabBar */,
+				104B6BDE1D1BC89D00594FE9 /* 首页 */,
+				104B6BDB1D1BC89D00594FE9 /* 寻车 */,
+				104B6BD81D1BC89D00594FE9 /* 发布 */,
+				104B6BDD1D1BC89D00594FE9 /* 订单 */,
+				104B6BDC1D1BC89D00594FE9 /* 我的 */,
+				104B6BD71D1BC89D00594FE9 /* 三方库 */,
+				104B6BD91D1BC89D00594FE9 /* 图片资源 */,
+				104B6BB91D1BC7D500594FE9 /* Supporting Files */,
+			);
+			path = ZhaoChe;
+			sourceTree = "<group>";
+		};
+		104B6BB91D1BC7D500594FE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				104B6BE01D1BCDA900594FE9 /* PrefixHeader.pch */,
+				104B6BCA1D1BC7D500594FE9 /* Info.plist */,
+				104B6BBA1D1BC7D500594FE9 /* main.m */,
+				104B6BC71D1BC7D500594FE9 /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		104B6BD01D1BC88100594FE9 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				104B6BD11D1BC88100594FE9 /* AppDelegate.h */,
+				104B6BD21D1BC88100594FE9 /* AppDelegate.m */,
+				104B6BE11D1BCFFB00594FE9 /* AppMacros.h */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		104B6BD41D1BC88C00594FE9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				104B6BE21D1BD14100594FE9 /* UIColor+ZhaoChe.h */,
+				104B6BE31D1BD14100594FE9 /* UIColor+ZhaoChe.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		104B6BD51D1BC89D00594FE9 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		104B6BD61D1BC89D00594FE9 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		104B6BD71D1BC89D00594FE9 /* 三方库 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "三方库";
+			sourceTree = "<group>";
+		};
+		104B6BD81D1BC89D00594FE9 /* 发布 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "发布";
+			sourceTree = "<group>";
+		};
+		104B6BD91D1BC89D00594FE9 /* 图片资源 */ = {
+			isa = PBXGroup;
+			children = (
+				104B6BDA1D1BC89D00594FE9 /* Assets.xcassets */,
+			);
+			path = "图片资源";
+			sourceTree = "<group>";
+		};
+		104B6BDB1D1BC89D00594FE9 /* 寻车 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "寻车";
+			sourceTree = "<group>";
+		};
+		104B6BDC1D1BC89D00594FE9 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		104B6BDD1D1BC89D00594FE9 /* 订单 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "订单";
+			sourceTree = "<group>";
+		};
+		104B6BDE1D1BC89D00594FE9 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		2BFEDDA0CFE94F9AC521C33C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6285E279A045B2DF78E2564F /* libPods-ZhaoChe.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7CB5144C0E78B417496F4CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CB5B7975390EE19120B2C6D /* Pods-ZhaoChe.debug.xcconfig */,
+				F622F029A89A87AD9252E140 /* Pods-ZhaoChe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		104B6BB51D1BC7D500594FE9 /* ZhaoChe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104B6BCD1D1BC7D500594FE9 /* Build configuration list for PBXNativeTarget "ZhaoChe" */;
+			buildPhases = (
+				AD1C7D928CBED764708A3220 /* Check Pods Manifest.lock */,
+				104B6BB21D1BC7D500594FE9 /* Sources */,
+				104B6BB31D1BC7D500594FE9 /* Frameworks */,
+				104B6BB41D1BC7D500594FE9 /* Resources */,
+				C0B98E2E3962EC7B08CFA879 /* Embed Pods Frameworks */,
+				36D325E23023B4BFB65AA4BF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZhaoChe;
+			productName = ZhaoChe;
+			productReference = 104B6BB61D1BC7D500594FE9 /* ZhaoChe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		104B6BAE1D1BC7D500594FE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = chetuan;
+				TargetAttributes = {
+					104B6BB51D1BC7D500594FE9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 104B6BB11D1BC7D500594FE9 /* Build configuration list for PBXProject "ZhaoChe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 104B6BAD1D1BC7D500594FE9;
+			productRefGroup = 104B6BB71D1BC7D500594FE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				104B6BB51D1BC7D500594FE9 /* ZhaoChe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		104B6BB41D1BC7D500594FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104B6BDF1D1BC89D00594FE9 /* Assets.xcassets in Resources */,
+				104B6BC91D1BC7D500594FE9 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36D325E23023B4BFB65AA4BF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhaoChe/Pods-ZhaoChe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD1C7D928CBED764708A3220 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0B98E2E3962EC7B08CFA879 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhaoChe/Pods-ZhaoChe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		104B6BB21D1BC7D500594FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104B6BD31D1BC88100594FE9 /* AppDelegate.m in Sources */,
+				104B6BBB1D1BC7D500594FE9 /* main.m in Sources */,
+				104B6BE41D1BD14100594FE9 /* UIColor+ZhaoChe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		104B6BC71D1BC7D500594FE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				104B6BC81D1BC7D500594FE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		104B6BCB1D1BC7D500594FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		104B6BCC1D1BC7D500594FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		104B6BCE1D1BC7D500594FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CB5B7975390EE19120B2C6D /* Pods-ZhaoChe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZhaoChe/PrefixHeader.pch";
+				INFOPLIST_FILE = ZhaoChe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chetuan.ZhaoChe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+			};
+			name = Debug;
+		};
+		104B6BCF1D1BC7D500594FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F622F029A89A87AD9252E140 /* Pods-ZhaoChe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZhaoChe/PrefixHeader.pch";
+				INFOPLIST_FILE = ZhaoChe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chetuan.ZhaoChe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		104B6BB11D1BC7D500594FE9 /* Build configuration list for PBXProject "ZhaoChe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104B6BCB1D1BC7D500594FE9 /* Debug */,
+				104B6BCC1D1BC7D500594FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		104B6BCD1D1BC7D500594FE9 /* Build configuration list for PBXNativeTarget "ZhaoChe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104B6BCE1D1BC7D500594FE9 /* Debug */,
+				104B6BCF1D1BC7D500594FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 104B6BAE1D1BC7D500594FE9 /* Project object */;
+}
