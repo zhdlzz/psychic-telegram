@@ -12,6 +12,8 @@
 		104B6BD31D1BC88100594FE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6BD21D1BC88100594FE9 /* AppDelegate.m */; };
 		104B6BDF1D1BC89D00594FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104B6BDA1D1BC89D00594FE9 /* Assets.xcassets */; };
 		104B6BE41D1BD14100594FE9 /* UIColor+ZhaoChe.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6BE31D1BD14100594FE9 /* UIColor+ZhaoChe.m */; };
+		104B6BE81D1BE85300594FE9 /* UIViewController+ZhaoChe.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6BE71D1BE85300594FE9 /* UIViewController+ZhaoChe.m */; };
+		104B6BEB1D1BEBB100594FE9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6BEA1D1BEBB100594FE9 /* LoginViewController.m */; };
 		6880AAA75774EF40CD03CD2E /* libPods-ZhaoChe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6285E279A045B2DF78E2564F /* libPods-ZhaoChe.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,10 @@
 		104B6BE11D1BCFFB00594FE9 /* AppMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacros.h; sourceTree = "<group>"; };
 		104B6BE21D1BD14100594FE9 /* UIColor+ZhaoChe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZhaoChe.h"; sourceTree = "<group>"; };
 		104B6BE31D1BD14100594FE9 /* UIColor+ZhaoChe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZhaoChe.m"; sourceTree = "<group>"; };
+		104B6BE61D1BE85300594FE9 /* UIViewController+ZhaoChe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZhaoChe.h"; sourceTree = "<group>"; };
+		104B6BE71D1BE85300594FE9 /* UIViewController+ZhaoChe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZhaoChe.m"; sourceTree = "<group>"; };
+		104B6BE91D1BEBB100594FE9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		104B6BEA1D1BEBB100594FE9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		3CB5B7975390EE19120B2C6D /* Pods-ZhaoChe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhaoChe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhaoChe/Pods-ZhaoChe.debug.xcconfig"; sourceTree = "<group>"; };
 		6285E279A045B2DF78E2564F /* libPods-ZhaoChe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZhaoChe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F622F029A89A87AD9252E140 /* Pods-ZhaoChe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhaoChe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhaoChe/Pods-ZhaoChe.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +74,7 @@
 				104B6BD01D1BC88100594FE9 /* Application */,
 				104B6BD41D1BC88C00594FE9 /* Categories */,
 				104B6BD51D1BC89D00594FE9 /* Managers */,
+				104B6BE51D1BE6EA00594FE9 /* 登录 */,
 				104B6BD61D1BC89D00594FE9 /* TabBar */,
 				104B6BDE1D1BC89D00594FE9 /* 首页 */,
 				104B6BDB1D1BC89D00594FE9 /* 寻车 */,
@@ -107,6 +114,8 @@
 			children = (
 				104B6BE21D1BD14100594FE9 /* UIColor+ZhaoChe.h */,
 				104B6BE31D1BD14100594FE9 /* UIColor+ZhaoChe.m */,
+				104B6BE61D1BE85300594FE9 /* UIViewController+ZhaoChe.h */,
+				104B6BE71D1BE85300594FE9 /* UIViewController+ZhaoChe.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -173,6 +182,15 @@
 			children = (
 			);
 			path = "首页";
+			sourceTree = "<group>";
+		};
+		104B6BE51D1BE6EA00594FE9 /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				104B6BE91D1BEBB100594FE9 /* LoginViewController.h */,
+				104B6BEA1D1BEBB100594FE9 /* LoginViewController.m */,
+			);
+			path = "登录";
 			sourceTree = "<group>";
 		};
 		2BFEDDA0CFE94F9AC521C33C /* Frameworks */ = {
@@ -315,6 +333,8 @@
 				104B6BD31D1BC88100594FE9 /* AppDelegate.m in Sources */,
 				104B6BBB1D1BC7D500594FE9 /* main.m in Sources */,
 				104B6BE41D1BD14100594FE9 /* UIColor+ZhaoChe.m in Sources */,
+				104B6BE81D1BE85300594FE9 /* UIViewController+ZhaoChe.m in Sources */,
+				104B6BEB1D1BEBB100594FE9 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

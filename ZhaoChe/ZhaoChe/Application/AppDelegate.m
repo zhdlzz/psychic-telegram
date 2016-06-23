@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +18,12 @@
 #pragma mark - Life Cycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    LoginViewController *loginVC = [[LoginViewController alloc] init];
+    self.window.rootViewController = loginVC;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
