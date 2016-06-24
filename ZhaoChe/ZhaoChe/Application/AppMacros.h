@@ -32,7 +32,7 @@
 #define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
 
 #ifdef DEBUG
-#define FLog(frmt, ...) NSLog((@"<文件:%s 行:%d 方法:%s>\n" frmt "\n"), \
+#define ZCLog(frmt, ...) NSLog((@"<文件:%s 行:%d 方法:%s>\n" frmt "\n"), \
 [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], \
 __LINE__, __func__, ##__VA_ARGS__)
 #else

@@ -13,8 +13,16 @@
 		104B6BDF1D1BC89D00594FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104B6BDA1D1BC89D00594FE9 /* Assets.xcassets */; };
 		104B6BE41D1BD14100594FE9 /* UIColor+ZhaoChe.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6BE31D1BD14100594FE9 /* UIColor+ZhaoChe.m */; };
 		104B6BE81D1BE85300594FE9 /* UIViewController+ZhaoChe.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6BE71D1BE85300594FE9 /* UIViewController+ZhaoChe.m */; };
-		104B6BEB1D1BEBB100594FE9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6BEA1D1BEBB100594FE9 /* LoginViewController.m */; };
-		6880AAA75774EF40CD03CD2E /* libPods-ZhaoChe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6285E279A045B2DF78E2564F /* libPods-ZhaoChe.a */; };
+		104B6BF71D1CC43600594FE9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6BF61D1CC43600594FE9 /* LoginViewController.m */; };
+		104B6BFB1D1CC58000594FE9 /* MobileInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6BF91D1CC58000594FE9 /* MobileInputCell.m */; };
+		104B6BFC1D1CC58000594FE9 /* MobileInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 104B6BFA1D1CC58000594FE9 /* MobileInputCell.xib */; };
+		104B6C001D1CC5AA00594FE9 /* VerificationCodeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6BFE1D1CC5AA00594FE9 /* VerificationCodeCell.m */; };
+		104B6C011D1CC5AA00594FE9 /* VerificationCodeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 104B6BFF1D1CC5AA00594FE9 /* VerificationCodeCell.xib */; };
+		104B6C041D1CCD6600594FE9 /* UITableView+ZhaoChe.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6C031D1CCD6600594FE9 /* UITableView+ZhaoChe.m */; };
+		104B6C071D1CDF9A00594FE9 /* TimerBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6C061D1CDF9A00594FE9 /* TimerBtn.m */; };
+		104B6C0D1D1D03E100594FE9 /* UIButton+ZhaoChe.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6C0C1D1D03E100594FE9 /* UIButton+ZhaoChe.m */; };
+		104B6C0F1D1D0BD000594FE9 /* NotCourierSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 104B6C0E1D1D0B8A00594FE9 /* NotCourierSans-Bold.otf */; };
+		71DA8368A4234FF576B4126C /* Pods_ZhaoChe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA0D95B2E3578AA59C6EF29 /* Pods_ZhaoChe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,10 +39,23 @@
 		104B6BE31D1BD14100594FE9 /* UIColor+ZhaoChe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZhaoChe.m"; sourceTree = "<group>"; };
 		104B6BE61D1BE85300594FE9 /* UIViewController+ZhaoChe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZhaoChe.h"; sourceTree = "<group>"; };
 		104B6BE71D1BE85300594FE9 /* UIViewController+ZhaoChe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZhaoChe.m"; sourceTree = "<group>"; };
-		104B6BE91D1BEBB100594FE9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		104B6BEA1D1BEBB100594FE9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		104B6BF51D1CC43600594FE9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		104B6BF61D1CC43600594FE9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		104B6BF81D1CC58000594FE9 /* MobileInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileInputCell.h; sourceTree = "<group>"; };
+		104B6BF91D1CC58000594FE9 /* MobileInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobileInputCell.m; sourceTree = "<group>"; };
+		104B6BFA1D1CC58000594FE9 /* MobileInputCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MobileInputCell.xib; sourceTree = "<group>"; };
+		104B6BFD1D1CC5AA00594FE9 /* VerificationCodeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerificationCodeCell.h; sourceTree = "<group>"; };
+		104B6BFE1D1CC5AA00594FE9 /* VerificationCodeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerificationCodeCell.m; sourceTree = "<group>"; };
+		104B6BFF1D1CC5AA00594FE9 /* VerificationCodeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerificationCodeCell.xib; sourceTree = "<group>"; };
+		104B6C021D1CCD6600594FE9 /* UITableView+ZhaoChe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+ZhaoChe.h"; sourceTree = "<group>"; };
+		104B6C031D1CCD6600594FE9 /* UITableView+ZhaoChe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ZhaoChe.m"; sourceTree = "<group>"; };
+		104B6C051D1CDF9A00594FE9 /* TimerBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerBtn.h; sourceTree = "<group>"; };
+		104B6C061D1CDF9A00594FE9 /* TimerBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerBtn.m; sourceTree = "<group>"; };
+		104B6C0B1D1D03E100594FE9 /* UIButton+ZhaoChe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZhaoChe.h"; sourceTree = "<group>"; };
+		104B6C0C1D1D03E100594FE9 /* UIButton+ZhaoChe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZhaoChe.m"; sourceTree = "<group>"; };
+		104B6C0E1D1D0B8A00594FE9 /* NotCourierSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotCourierSans-Bold.otf"; sourceTree = "<group>"; };
 		3CB5B7975390EE19120B2C6D /* Pods-ZhaoChe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhaoChe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhaoChe/Pods-ZhaoChe.debug.xcconfig"; sourceTree = "<group>"; };
-		6285E279A045B2DF78E2564F /* libPods-ZhaoChe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZhaoChe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA0D95B2E3578AA59C6EF29 /* Pods_ZhaoChe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZhaoChe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F622F029A89A87AD9252E140 /* Pods-ZhaoChe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhaoChe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhaoChe/Pods-ZhaoChe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6880AAA75774EF40CD03CD2E /* libPods-ZhaoChe.a in Frameworks */,
+				71DA8368A4234FF576B4126C /* Pods_ZhaoChe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +116,7 @@
 				104B6BCA1D1BC7D500594FE9 /* Info.plist */,
 				104B6BBA1D1BC7D500594FE9 /* main.m */,
 				104B6BC71D1BC7D500594FE9 /* LaunchScreen.storyboard */,
+				104B6C0E1D1D0B8A00594FE9 /* NotCourierSans-Bold.otf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -116,6 +138,10 @@
 				104B6BE31D1BD14100594FE9 /* UIColor+ZhaoChe.m */,
 				104B6BE61D1BE85300594FE9 /* UIViewController+ZhaoChe.h */,
 				104B6BE71D1BE85300594FE9 /* UIViewController+ZhaoChe.m */,
+				104B6C021D1CCD6600594FE9 /* UITableView+ZhaoChe.h */,
+				104B6C031D1CCD6600594FE9 /* UITableView+ZhaoChe.m */,
+				104B6C0B1D1D03E100594FE9 /* UIButton+ZhaoChe.h */,
+				104B6C0C1D1D03E100594FE9 /* UIButton+ZhaoChe.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -187,8 +213,16 @@
 		104B6BE51D1BE6EA00594FE9 /* 登录 */ = {
 			isa = PBXGroup;
 			children = (
-				104B6BE91D1BEBB100594FE9 /* LoginViewController.h */,
-				104B6BEA1D1BEBB100594FE9 /* LoginViewController.m */,
+				104B6BF51D1CC43600594FE9 /* LoginViewController.h */,
+				104B6BF61D1CC43600594FE9 /* LoginViewController.m */,
+				104B6BF81D1CC58000594FE9 /* MobileInputCell.h */,
+				104B6BF91D1CC58000594FE9 /* MobileInputCell.m */,
+				104B6BFA1D1CC58000594FE9 /* MobileInputCell.xib */,
+				104B6BFD1D1CC5AA00594FE9 /* VerificationCodeCell.h */,
+				104B6BFE1D1CC5AA00594FE9 /* VerificationCodeCell.m */,
+				104B6BFF1D1CC5AA00594FE9 /* VerificationCodeCell.xib */,
+				104B6C051D1CDF9A00594FE9 /* TimerBtn.h */,
+				104B6C061D1CDF9A00594FE9 /* TimerBtn.m */,
 			);
 			path = "登录";
 			sourceTree = "<group>";
@@ -196,7 +230,7 @@
 		2BFEDDA0CFE94F9AC521C33C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6285E279A045B2DF78E2564F /* libPods-ZhaoChe.a */,
+				CBA0D95B2E3578AA59C6EF29 /* Pods_ZhaoChe.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -244,6 +278,7 @@
 				TargetAttributes = {
 					104B6BB51D1BC7D500594FE9 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 98ZL4K5SEZ;
 					};
 				};
 			};
@@ -270,8 +305,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				104B6C0F1D1D0BD000594FE9 /* NotCourierSans-Bold.otf in Resources */,
+				104B6BFC1D1CC58000594FE9 /* MobileInputCell.xib in Resources */,
 				104B6BDF1D1BC89D00594FE9 /* Assets.xcassets in Resources */,
 				104B6BC91D1BC7D500594FE9 /* LaunchScreen.storyboard in Resources */,
+				104B6C011D1CC5AA00594FE9 /* VerificationCodeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,11 +368,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				104B6C071D1CDF9A00594FE9 /* TimerBtn.m in Sources */,
+				104B6BFB1D1CC58000594FE9 /* MobileInputCell.m in Sources */,
 				104B6BD31D1BC88100594FE9 /* AppDelegate.m in Sources */,
 				104B6BBB1D1BC7D500594FE9 /* main.m in Sources */,
+				104B6C0D1D1D03E100594FE9 /* UIButton+ZhaoChe.m in Sources */,
+				104B6BF71D1CC43600594FE9 /* LoginViewController.m in Sources */,
+				104B6C001D1CC5AA00594FE9 /* VerificationCodeCell.m in Sources */,
 				104B6BE41D1BD14100594FE9 /* UIColor+ZhaoChe.m in Sources */,
+				104B6C041D1CCD6600594FE9 /* UITableView+ZhaoChe.m in Sources */,
 				104B6BE81D1BE85300594FE9 /* UIViewController+ZhaoChe.m in Sources */,
-				104B6BEB1D1BEBB100594FE9 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +482,8 @@
 			baseConfigurationReference = 3CB5B7975390EE19120B2C6D /* Pods-ZhaoChe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ZhaoChe/PrefixHeader.pch";
 				INFOPLIST_FILE = ZhaoChe/Info.plist;
@@ -446,6 +491,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chetuan.ZhaoChe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
@@ -455,6 +501,8 @@
 			baseConfigurationReference = F622F029A89A87AD9252E140 /* Pods-ZhaoChe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ZhaoChe/PrefixHeader.pch";
 				INFOPLIST_FILE = ZhaoChe/Info.plist;
@@ -462,6 +510,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chetuan.ZhaoChe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Release;

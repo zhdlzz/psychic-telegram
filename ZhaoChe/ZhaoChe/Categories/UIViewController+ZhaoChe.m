@@ -34,7 +34,12 @@
 
 - (void)zc_viewWillAppear:(BOOL)animated {
     [self zc_viewWillAppear:animated];
-    NSLog(@"即将显示视图控制器:%@", self);
+    if (![self isKindOfClass:NSClassFromString(@"UIInputWindowController")] &&
+        ![self isKindOfClass:NSClassFromString(@"UINavigationController")] &&
+        ![self isKindOfClass:NSClassFromString(@"UICompatibilityInputViewController")] &&
+        ![self isKindOfClass:NSClassFromString(@"UIApplicationRotationFollowingControllerNoTouches")]){
+        NSLog(@">>>当前视图控制器:%@", self);
+    }
 }
 
 @end
