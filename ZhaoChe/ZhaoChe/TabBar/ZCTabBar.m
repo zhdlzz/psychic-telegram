@@ -26,10 +26,10 @@
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        self.actionBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        [self.actionBtn setBackgroundImage:[UIImage imageNamed:@"添加"] forState:UIControlStateNormal];
-        [self.actionBtn addTarget:self action:@selector(actionBtnClicked:) forControlEvents:UIControlEventTouchUpInside];
-        [self addSubview:self.actionBtn];
+        self.publishBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        [self.publishBtn setBackgroundImage:[UIImage imageNamed:@"TabBar添加"] forState:UIControlStateNormal];
+        [self.publishBtn addTarget:self action:@selector(publishBtnClicked:) forControlEvents:UIControlEventTouchUpInside];
+        [self addSubview:self.publishBtn];
     }
     return self;
 }
@@ -37,8 +37,8 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     
-    self.actionBtn.bounds = CGRectMake(0, 0, self.actionBtn.currentBackgroundImage.size.width, self.actionBtn.currentBackgroundImage.size.height);
-    self.actionBtn.center = CGPointMake(self.frame.size.width / 2., self.frame.size.height / 2.);
+    self.publishBtn.bounds = CGRectMake(0, 0, self.publishBtn.currentBackgroundImage.size.width, self.publishBtn.currentBackgroundImage.size.height);
+    self.publishBtn.center = CGPointMake(self.frame.size.width / 2., self.frame.size.height / 2.);
     
     CGFloat x = 0;
     CGFloat y = 0;
@@ -48,16 +48,16 @@
     NSInteger idx = 0;
     
     for (UIView *btn in self.subviews) {
-        if (![btn isKindOfClass:[UIControl class]] || btn == self.actionBtn) continue;
+        if (![btn isKindOfClass:[UIControl class]] || btn == self.publishBtn) continue;
         x = width * ((idx > 1) ? (idx + 1) : idx);
         btn.frame = CGRectMake(x, y, width, height);
         idx++;
     }
 }
 
-- (void)actionBtnClicked:(UIButton *)sender {
-    if (self.actionBtnClickedBlock) {
-        self.actionBtnClickedBlock();
+- (void)publishBtnClicked:(UIButton *)sender {
+    if (self.publishBtnClickedBlock) {
+        self.publishBtnClickedBlock();
     }
 }
 

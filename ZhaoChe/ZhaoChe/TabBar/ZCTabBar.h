@@ -10,7 +10,7 @@
 
 @interface ZCTabBar : UITabBar
 
-@property (strong, nonatomic) UIButton *actionBtn;
-@property (copy, nonatomic) void(^actionBtnClickedBlock)();
+@property (strong, nonatomic) UIButton *publishBtn;
+@property (copy, nonatomic) void(^publishBtnClickedBlock)();
 
 @end

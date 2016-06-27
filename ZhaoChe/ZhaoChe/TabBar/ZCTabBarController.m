@@ -12,8 +12,11 @@
 #import "OrdersViewController.h"
 #import "MeViewController.h"
 #import "ZCTabBar.h"
+#import "PublishView.h"
 
 @interface ZCTabBarController ()
+
+@property (strong, nonatomic) PublishView *publishView;
 
 @end
 
@@ -48,10 +51,36 @@
     // 替换自定义TabBar
     ZCTabBar *zcTabBar = [[ZCTabBar alloc] init];
     [self setValue:zcTabBar forKey:@"tabBar"];
-    zcTabBar.actionBtnClickedBlock = ^{
-        NSLog(@"发布车源");
+    zcTabBar.publishBtnClickedBlock = ^{
+        [[UIApplication sharedApplication].keyWindow.rootViewController.view addSubview:self.publishView];
+        __weak ZCTabBarController *weakSelf = self;
+        self.publishView.dismissBtnClickedBlock = ^{
+            [weakSelf dismissPublishView];
+        };
+        
+        [self.publishView setActionBtnClickedBlock:^(NSInteger tag) {
+            switch (tag) {
+                case 0: {
+                    NSLog(@">>>0");
+                }
+                    break;
+                case 1: {
+                    NSLog(@">>>1");
+                }
+                    break;
+                case 2: {
+                    NSLog(@">>>2");
+                }
+                    break;
+                case 3: {
+                    NSLog(@">>>3");
+                }
+                    break;
+                default:
+                    break;
+            }
+        }];
     };
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -95,6 +124,19 @@
     [self addChildViewController:meNav];
 }
 
+#pragma mark - Response Events
 
+- (void)dismissPublishView {
+    [self.publishView removeFromSuperview];
+}
+
+#pragma mark - Getters
+
+- (PublishView *)publishView {
+    if (!_publishView) {
+        _publishView = [[PublishView alloc] initWithFrame:SCREEN_BOUNDS];
+    }
+    return _publishView;
+}
 
 @end
