@@ -49,7 +49,7 @@
     ZCTabBar *zcTabBar = [[ZCTabBar alloc] init];
     [self setValue:zcTabBar forKey:@"tabBar"];
     zcTabBar.actionBtnClickedBlock = ^{
-        NSLog(@">>><<<");
+        NSLog(@"发布车源");
     };
     
 }
