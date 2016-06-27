@@ -10,7 +10,6 @@
 		104B6BBB1D1BC7D500594FE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6BBA1D1BC7D500594FE9 /* main.m */; };
 		104B6BC91D1BC7D500594FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104B6BC71D1BC7D500594FE9 /* LaunchScreen.storyboard */; };
 		104B6BD31D1BC88100594FE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6BD21D1BC88100594FE9 /* AppDelegate.m */; };
-		104B6BDF1D1BC89D00594FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104B6BDA1D1BC89D00594FE9 /* Assets.xcassets */; };
 		104B6BE41D1BD14100594FE9 /* UIColor+ZhaoChe.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6BE31D1BD14100594FE9 /* UIColor+ZhaoChe.m */; };
 		104B6BE81D1BE85300594FE9 /* UIViewController+ZhaoChe.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6BE71D1BE85300594FE9 /* UIViewController+ZhaoChe.m */; };
 		104B6BF71D1CC43600594FE9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6BF61D1CC43600594FE9 /* LoginViewController.m */; };
@@ -22,6 +21,17 @@
 		104B6C071D1CDF9A00594FE9 /* TimerBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6C061D1CDF9A00594FE9 /* TimerBtn.m */; };
 		104B6C0D1D1D03E100594FE9 /* UIButton+ZhaoChe.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6C0C1D1D03E100594FE9 /* UIButton+ZhaoChe.m */; };
 		104B6C0F1D1D0BD000594FE9 /* NotCourierSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 104B6C0E1D1D0B8A00594FE9 /* NotCourierSans-Bold.otf */; };
+		104B6C111D20C7EE00594FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104B6C101D20C7EE00594FE9 /* Assets.xcassets */; };
+		104B6C141D20CC4A00594FE9 /* ZCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6C131D20CC4A00594FE9 /* ZCTabBarController.m */; };
+		104B6C181D20D3FF00594FE9 /* OrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6C161D20D3FF00594FE9 /* OrdersViewController.m */; };
+		104B6C191D20D3FF00594FE9 /* OrdersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 104B6C171D20D3FF00594FE9 /* OrdersViewController.xib */; };
+		104B6C1D1D20D41500594FE9 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6C1B1D20D41500594FE9 /* MeViewController.m */; };
+		104B6C1E1D20D41500594FE9 /* MeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 104B6C1C1D20D41500594FE9 /* MeViewController.xib */; };
+		104B6C201D20D44200594FE9 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104B6C1F1D20D44200594FE9 /* Home.storyboard */; };
+		104B6C251D20D4E100594FE9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6C241D20D4E100594FE9 /* HomeViewController.m */; };
+		104B6C271D20D51200594FE9 /* FindCar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104B6C261D20D51200594FE9 /* FindCar.storyboard */; };
+		104B6C2A1D20D52000594FE9 /* FindCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6C291D20D52000594FE9 /* FindCarViewController.m */; };
+		104B6C2D1D20EF9C00594FE9 /* ZCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6C2C1D20EF9C00594FE9 /* ZCTabBar.m */; };
 		71DA8368A4234FF576B4126C /* Pods_ZhaoChe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA0D95B2E3578AA59C6EF29 /* Pods_ZhaoChe.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +42,6 @@
 		104B6BCA1D1BC7D500594FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		104B6BD11D1BC88100594FE9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		104B6BD21D1BC88100594FE9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		104B6BDA1D1BC89D00594FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		104B6BE01D1BCDA900594FE9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		104B6BE11D1BCFFB00594FE9 /* AppMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacros.h; sourceTree = "<group>"; };
 		104B6BE21D1BD14100594FE9 /* UIColor+ZhaoChe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZhaoChe.h"; sourceTree = "<group>"; };
@@ -54,6 +63,23 @@
 		104B6C0B1D1D03E100594FE9 /* UIButton+ZhaoChe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZhaoChe.h"; sourceTree = "<group>"; };
 		104B6C0C1D1D03E100594FE9 /* UIButton+ZhaoChe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZhaoChe.m"; sourceTree = "<group>"; };
 		104B6C0E1D1D0B8A00594FE9 /* NotCourierSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotCourierSans-Bold.otf"; sourceTree = "<group>"; };
+		104B6C101D20C7EE00594FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		104B6C121D20CC4A00594FE9 /* ZCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTabBarController.h; sourceTree = "<group>"; };
+		104B6C131D20CC4A00594FE9 /* ZCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTabBarController.m; sourceTree = "<group>"; };
+		104B6C151D20D3FF00594FE9 /* OrdersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrdersViewController.h; sourceTree = "<group>"; };
+		104B6C161D20D3FF00594FE9 /* OrdersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrdersViewController.m; sourceTree = "<group>"; };
+		104B6C171D20D3FF00594FE9 /* OrdersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrdersViewController.xib; sourceTree = "<group>"; };
+		104B6C1A1D20D41500594FE9 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		104B6C1B1D20D41500594FE9 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		104B6C1C1D20D41500594FE9 /* MeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeViewController.xib; sourceTree = "<group>"; };
+		104B6C1F1D20D44200594FE9 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		104B6C231D20D4E100594FE9 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		104B6C241D20D4E100594FE9 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		104B6C261D20D51200594FE9 /* FindCar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FindCar.storyboard; sourceTree = "<group>"; };
+		104B6C281D20D52000594FE9 /* FindCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindCarViewController.h; sourceTree = "<group>"; };
+		104B6C291D20D52000594FE9 /* FindCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindCarViewController.m; sourceTree = "<group>"; };
+		104B6C2B1D20EF9C00594FE9 /* ZCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTabBar.h; sourceTree = "<group>"; };
+		104B6C2C1D20EF9C00594FE9 /* ZCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTabBar.m; sourceTree = "<group>"; };
 		3CB5B7975390EE19120B2C6D /* Pods-ZhaoChe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhaoChe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhaoChe/Pods-ZhaoChe.debug.xcconfig"; sourceTree = "<group>"; };
 		CBA0D95B2E3578AA59C6EF29 /* Pods_ZhaoChe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZhaoChe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F622F029A89A87AD9252E140 /* Pods-ZhaoChe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhaoChe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhaoChe/Pods-ZhaoChe.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +129,6 @@
 				104B6BDD1D1BC89D00594FE9 /* 订单 */,
 				104B6BDC1D1BC89D00594FE9 /* 我的 */,
 				104B6BD71D1BC89D00594FE9 /* 三方库 */,
-				104B6BD91D1BC89D00594FE9 /* 图片资源 */,
 				104B6BB91D1BC7D500594FE9 /* Supporting Files */,
 			);
 			path = ZhaoChe;
@@ -112,10 +137,11 @@
 		104B6BB91D1BC7D500594FE9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				104B6BC71D1BC7D500594FE9 /* LaunchScreen.storyboard */,
+				104B6C101D20C7EE00594FE9 /* Assets.xcassets */,
 				104B6BE01D1BCDA900594FE9 /* PrefixHeader.pch */,
 				104B6BCA1D1BC7D500594FE9 /* Info.plist */,
 				104B6BBA1D1BC7D500594FE9 /* main.m */,
-				104B6BC71D1BC7D500594FE9 /* LaunchScreen.storyboard */,
 				104B6C0E1D1D0B8A00594FE9 /* NotCourierSans-Bold.otf */,
 			);
 			name = "Supporting Files";
@@ -156,6 +182,10 @@
 		104B6BD61D1BC89D00594FE9 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				104B6C121D20CC4A00594FE9 /* ZCTabBarController.h */,
+				104B6C131D20CC4A00594FE9 /* ZCTabBarController.m */,
+				104B6C2B1D20EF9C00594FE9 /* ZCTabBar.h */,
+				104B6C2C1D20EF9C00594FE9 /* ZCTabBar.m */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -174,17 +204,12 @@
 			path = "发布";
 			sourceTree = "<group>";
 		};
-		104B6BD91D1BC89D00594FE9 /* 图片资源 */ = {
-			isa = PBXGroup;
-			children = (
-				104B6BDA1D1BC89D00594FE9 /* Assets.xcassets */,
-			);
-			path = "图片资源";
-			sourceTree = "<group>";
-		};
 		104B6BDB1D1BC89D00594FE9 /* 寻车 */ = {
 			isa = PBXGroup;
 			children = (
+				104B6C261D20D51200594FE9 /* FindCar.storyboard */,
+				104B6C281D20D52000594FE9 /* FindCarViewController.h */,
+				104B6C291D20D52000594FE9 /* FindCarViewController.m */,
 			);
 			path = "寻车";
 			sourceTree = "<group>";
@@ -192,6 +217,9 @@
 		104B6BDC1D1BC89D00594FE9 /* 我的 */ = {
 			isa = PBXGroup;
 			children = (
+				104B6C1A1D20D41500594FE9 /* MeViewController.h */,
+				104B6C1B1D20D41500594FE9 /* MeViewController.m */,
+				104B6C1C1D20D41500594FE9 /* MeViewController.xib */,
 			);
 			path = "我的";
 			sourceTree = "<group>";
@@ -199,6 +227,9 @@
 		104B6BDD1D1BC89D00594FE9 /* 订单 */ = {
 			isa = PBXGroup;
 			children = (
+				104B6C151D20D3FF00594FE9 /* OrdersViewController.h */,
+				104B6C161D20D3FF00594FE9 /* OrdersViewController.m */,
+				104B6C171D20D3FF00594FE9 /* OrdersViewController.xib */,
 			);
 			path = "订单";
 			sourceTree = "<group>";
@@ -206,6 +237,9 @@
 		104B6BDE1D1BC89D00594FE9 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
+				104B6C1F1D20D44200594FE9 /* Home.storyboard */,
+				104B6C231D20D4E100594FE9 /* HomeViewController.h */,
+				104B6C241D20D4E100594FE9 /* HomeViewController.m */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -306,10 +340,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				104B6C0F1D1D0BD000594FE9 /* NotCourierSans-Bold.otf in Resources */,
+				104B6C191D20D3FF00594FE9 /* OrdersViewController.xib in Resources */,
 				104B6BFC1D1CC58000594FE9 /* MobileInputCell.xib in Resources */,
-				104B6BDF1D1BC89D00594FE9 /* Assets.xcassets in Resources */,
 				104B6BC91D1BC7D500594FE9 /* LaunchScreen.storyboard in Resources */,
+				104B6C111D20C7EE00594FE9 /* Assets.xcassets in Resources */,
+				104B6C271D20D51200594FE9 /* FindCar.storyboard in Resources */,
 				104B6C011D1CC5AA00594FE9 /* VerificationCodeCell.xib in Resources */,
+				104B6C1E1D20D41500594FE9 /* MeViewController.xib in Resources */,
+				104B6C201D20D44200594FE9 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,13 +408,19 @@
 			files = (
 				104B6C071D1CDF9A00594FE9 /* TimerBtn.m in Sources */,
 				104B6BFB1D1CC58000594FE9 /* MobileInputCell.m in Sources */,
+				104B6C141D20CC4A00594FE9 /* ZCTabBarController.m in Sources */,
 				104B6BD31D1BC88100594FE9 /* AppDelegate.m in Sources */,
 				104B6BBB1D1BC7D500594FE9 /* main.m in Sources */,
+				104B6C251D20D4E100594FE9 /* HomeViewController.m in Sources */,
 				104B6C0D1D1D03E100594FE9 /* UIButton+ZhaoChe.m in Sources */,
 				104B6BF71D1CC43600594FE9 /* LoginViewController.m in Sources */,
+				104B6C181D20D3FF00594FE9 /* OrdersViewController.m in Sources */,
 				104B6C001D1CC5AA00594FE9 /* VerificationCodeCell.m in Sources */,
+				104B6C1D1D20D41500594FE9 /* MeViewController.m in Sources */,
 				104B6BE41D1BD14100594FE9 /* UIColor+ZhaoChe.m in Sources */,
 				104B6C041D1CCD6600594FE9 /* UITableView+ZhaoChe.m in Sources */,
+				104B6C2A1D20D52000594FE9 /* FindCarViewController.m in Sources */,
+				104B6C2D1D20EF9C00594FE9 /* ZCTabBar.m in Sources */,
 				104B6BE81D1BE85300594FE9 /* UIViewController+ZhaoChe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

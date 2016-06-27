@@ -39,4 +39,9 @@ __LINE__, __func__, ##__VA_ARGS__)
 #define NSLog(...)
 #endif
 
+//=======================================
+// NSUserDefault
+//=======================================
+#define IS_USER_LOGGED_IN   @"IS_USER_LOGGED_IN"
+
 #endif /* AppMacros_h */

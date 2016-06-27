@@ -37,7 +37,8 @@
     if (![self isKindOfClass:NSClassFromString(@"UIInputWindowController")] &&
         ![self isKindOfClass:NSClassFromString(@"UINavigationController")] &&
         ![self isKindOfClass:NSClassFromString(@"UICompatibilityInputViewController")] &&
-        ![self isKindOfClass:NSClassFromString(@"UIApplicationRotationFollowingControllerNoTouches")]){
+        ![self isKindOfClass:NSClassFromString(@"UIApplicationRotationFollowingControllerNoTouches")] &&
+        ![self isKindOfClass:NSClassFromString(@"ZCTabBarController")]){
         NSLog(@">>>当前视图控制器:%@", self);
     }
 }

@@ -96,7 +96,7 @@
     UILabel *tip = [[UILabel alloc] init];
     tip.textColor = [UIColor zc_FontColor999];
     tip.font = [UIFont systemFontOfSize:12];
-    tip.text = @"方便交易时商家联系您，请先验证手机";
+    tip.text = @"为方便交易时商家联系您，请先验证手机";
     CGSize tipSize = [tip.text boundingRectWithSize:CGSizeMake(MAXFLOAT, MAXFLOAT)
                                             options:NSStringDrawingUsesLineFragmentOrigin
                                          attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:12]}
