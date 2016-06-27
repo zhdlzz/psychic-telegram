@@ -32,6 +32,7 @@
 		104B6C271D20D51200594FE9 /* FindCar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104B6C261D20D51200594FE9 /* FindCar.storyboard */; };
 		104B6C2A1D20D52000594FE9 /* FindCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6C291D20D52000594FE9 /* FindCarViewController.m */; };
 		104B6C2D1D20EF9C00594FE9 /* ZCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6C2C1D20EF9C00594FE9 /* ZCTabBar.m */; };
+		104B6C301D21047100594FE9 /* NSString+ZhaoChe.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6C2F1D21047100594FE9 /* NSString+ZhaoChe.m */; };
 		71DA8368A4234FF576B4126C /* Pods_ZhaoChe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA0D95B2E3578AA59C6EF29 /* Pods_ZhaoChe.framework */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +81,8 @@
 		104B6C291D20D52000594FE9 /* FindCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindCarViewController.m; sourceTree = "<group>"; };
 		104B6C2B1D20EF9C00594FE9 /* ZCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTabBar.h; sourceTree = "<group>"; };
 		104B6C2C1D20EF9C00594FE9 /* ZCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTabBar.m; sourceTree = "<group>"; };
+		104B6C2E1D21047100594FE9 /* NSString+ZhaoChe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZhaoChe.h"; sourceTree = "<group>"; };
+		104B6C2F1D21047100594FE9 /* NSString+ZhaoChe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZhaoChe.m"; sourceTree = "<group>"; };
 		3CB5B7975390EE19120B2C6D /* Pods-ZhaoChe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhaoChe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhaoChe/Pods-ZhaoChe.debug.xcconfig"; sourceTree = "<group>"; };
 		CBA0D95B2E3578AA59C6EF29 /* Pods_ZhaoChe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZhaoChe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F622F029A89A87AD9252E140 /* Pods-ZhaoChe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhaoChe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhaoChe/Pods-ZhaoChe.release.xcconfig"; sourceTree = "<group>"; };
@@ -168,6 +171,8 @@
 				104B6C031D1CCD6600594FE9 /* UITableView+ZhaoChe.m */,
 				104B6C0B1D1D03E100594FE9 /* UIButton+ZhaoChe.h */,
 				104B6C0C1D1D03E100594FE9 /* UIButton+ZhaoChe.m */,
+				104B6C2E1D21047100594FE9 /* NSString+ZhaoChe.h */,
+				104B6C2F1D21047100594FE9 /* NSString+ZhaoChe.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -415,6 +420,7 @@
 				104B6C0D1D1D03E100594FE9 /* UIButton+ZhaoChe.m in Sources */,
 				104B6BF71D1CC43600594FE9 /* LoginViewController.m in Sources */,
 				104B6C181D20D3FF00594FE9 /* OrdersViewController.m in Sources */,
+				104B6C301D21047100594FE9 /* NSString+ZhaoChe.m in Sources */,
 				104B6C001D1CC5AA00594FE9 /* VerificationCodeCell.m in Sources */,
 				104B6C1D1D20D41500594FE9 /* MeViewController.m in Sources */,
 				104B6BE41D1BD14100594FE9 /* UIColor+ZhaoChe.m in Sources */,
