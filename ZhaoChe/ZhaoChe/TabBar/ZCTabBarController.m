@@ -61,19 +61,23 @@
         [self.publishView setActionBtnClickedBlock:^(NSInteger tag) {
             switch (tag) {
                 case 0: {
-                    NSLog(@">>>0");
+                    NSLog(@">>>发布车源");
+                    [weakSelf dismissPublishView];
                 }
                     break;
                 case 1: {
-                    NSLog(@">>>1");
+                    NSLog(@">>>发布寻车");
+                    [weakSelf dismissPublishView];
                 }
                     break;
                 case 2: {
-                    NSLog(@">>>2");
+                    NSLog(@">>>管理车源");
+                    [weakSelf dismissPublishView];
                 }
                     break;
                 case 3: {
-                    NSLog(@">>>3");
+                    NSLog(@">>>管理寻车");
+                    [weakSelf dismissPublishView];
                 }
                     break;
                 default:

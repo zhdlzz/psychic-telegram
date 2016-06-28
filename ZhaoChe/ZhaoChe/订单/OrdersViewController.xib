@@ -14,20 +14,6 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TabBar添加" translatesAutoresizingMaskIntoConstraints="NO" id="MqX-0Y-H2u">
-                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                </imageView>
-            </subviews>
-            <constraints>
-                <constraint firstItem="MqX-0Y-H2u" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="E52-79-44Y"/>
-                <constraint firstAttribute="trailing" secondItem="MqX-0Y-H2u" secondAttribute="trailing" id="HRU-A8-Lx4"/>
-                <constraint firstItem="MqX-0Y-H2u" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Iwl-Rh-tTf"/>
-                <constraint firstAttribute="bottom" secondItem="MqX-0Y-H2u" secondAttribute="bottom" id="cnu-AM-7Vc"/>
-            </constraints>
         </view>
     </objects>
-    <resources>
-        <image name="TabBar添加" width="63" height="39"/>
-    </resources>
 </document>
