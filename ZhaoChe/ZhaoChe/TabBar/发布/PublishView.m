@@ -37,7 +37,9 @@
         [self addSubview:effectView];
         
         // 添加action按钮
-        CGFloat spacing = 10.;
+        CGFloat spacing = 8.; // 按钮图片与标题的间距
+        CGFloat topSpacing = (8. / 21.) * SCREEN_HEIGHT; // 按钮距离顶部距离
+        CGFloat btnSpacing = (10. / 47.) * SCREEN_WIDTH; // 按钮间距
 
         for (int i = 0; i < self.infos.count; i++) {
             NSString *title = self.infos[i];
@@ -51,18 +53,29 @@
             [btn setTitleColor:[UIColor colorWithRed:71 / 255. green:71 / 255. blue:71 / 255. alpha:1.] forState:UIControlStateNormal];
             [btn setTitleColor:[UIColor colorWithRed:71 / 255. green:71 / 255. blue:71 / 255. alpha:.8] forState:UIControlStateHighlighted];
             [btn addTarget:self action:@selector(actionBtnClicked:) forControlEvents:UIControlEventTouchUpInside];
-            // 调整标题的位置
+
             CGSize imageSize = btn.imageView.image.size;
             [btn setTitleEdgeInsets:UIEdgeInsetsMake(0.0, - imageSize.width, - (imageSize.height + spacing), 0.0)];
-            // 调整图的位置
+
             CGSize titleSize = [btn.titleLabel.text sizeWithAttributes:@{NSFontAttributeName : [UIFont systemFontOfSize:13]}];
             [btn setImageEdgeInsets:UIEdgeInsetsMake(- (titleSize.height + spacing), 0.0, 0.0, - titleSize.width)];
             
+            CGFloat sideToSideLength = btn.imageView.image.size.width * 2 + btnSpacing; // 按钮＋间距＋按钮总长
+
+            CGFloat sideSpacing = 0;
+            if (SCREEN_WIDTH == 320) {
+                sideSpacing = (SCREEN_WIDTH - sideToSideLength) / 4.;
+            }
+            
+            if (SCREEN_WIDTH == 375 || SCREEN_WIDTH == 414) {
+                sideSpacing = (SCREEN_WIDTH - sideToSideLength) / 3.;
+            }
+            
             if (i < 2) {
-                btn.frame = CGRectMake(68 + (imageSize.width + 81) * i , 262, 0, 0);
+                btn.frame = CGRectMake(sideSpacing + (imageSize.width + btnSpacing) * i , topSpacing, 0, 0);
             } else {
                 i = i - 2;
-                btn.frame = CGRectMake(68 + (imageSize.width + 81) * i, 262 + imageSize.height + titleSize.height + 30, 0, 0);
+                btn.frame = CGRectMake(sideSpacing + (imageSize.width + btnSpacing) * i, topSpacing + imageSize.height + titleSize.height + 30, 0, 0);
                 i = i + 2;
             }
             
