@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MeViewController">
             <connections>
+                <outlet property="myTableView" destination="r1z-Lz-R9a" id="T2F-tu-MNS"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -14,7 +15,45 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <point key="canvasLocation" x="648" y="536"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="r1z-Lz-R9a">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="EZp-SJ-Lbn"/>
+                        <outlet property="delegate" destination="-1" id="KZN-du-Ivv"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="r1z-Lz-R9a" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="89C-RD-svB"/>
+                <constraint firstAttribute="bottom" secondItem="r1z-Lz-R9a" secondAttribute="bottom" id="8p4-Ap-14K"/>
+                <constraint firstItem="r1z-Lz-R9a" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Zdk-cF-for"/>
+                <constraint firstAttribute="trailing" secondItem="r1z-Lz-R9a" secondAttribute="trailing" id="y2T-gk-cNA"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="r1z-Lz-R9a"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="89C-RD-svB"/>
+                    <exclude reference="8p4-Ap-14K"/>
+                    <exclude reference="Zdk-cF-for"/>
+                    <exclude reference="y2T-gk-cNA"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="r1z-Lz-R9a"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="89C-RD-svB"/>
+                    <include reference="8p4-Ap-14K"/>
+                    <include reference="Zdk-cF-for"/>
+                    <include reference="y2T-gk-cNA"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="567" y="341"/>
         </view>
     </objects>
 </document>

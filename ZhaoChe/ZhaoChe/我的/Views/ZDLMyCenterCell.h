@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ZDLMyCenterCell : UITableViewCell
+@property (strong, nonatomic) UIButton *iconBtn;
+@property (strong, nonatomic) UILabel *nameLabel;
+@property (strong, nonatomic) UIButton *goIconBtn;
 
 @end

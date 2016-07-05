@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CompanyController">
@@ -13,7 +14,136 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bhx-5P-4sL">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="公司全称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K6V-cw-zwH">
+                            <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="GC4-63-2uH"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="GC4-63-2uH"/>
+                                </mask>
+                            </variation>
+                            <variation key="widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="GC4-63-2uH"/>
+                                </mask>
+                            </variation>
+                        </label>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入营业执照上的公司全称" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jGc-sY-1fb">
+                            <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="8e9-2x-bbp"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="8e9-2x-bbp"/>
+                                </mask>
+                            </variation>
+                            <variation key="widthClass=compact">
+                                <mask key="constraints">
+                                    <include reference="8e9-2x-bbp"/>
+                                </mask>
+                            </variation>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="jGc-sY-1fb" firstAttribute="leading" secondItem="K6V-cw-zwH" secondAttribute="trailing" constant="30" id="4ex-Ec-RbV"/>
+                        <constraint firstAttribute="bottom" secondItem="K6V-cw-zwH" secondAttribute="bottom" id="eor-17-0c0"/>
+                        <constraint firstItem="K6V-cw-zwH" firstAttribute="leading" secondItem="Bhx-5P-4sL" secondAttribute="leading" constant="16" id="fo2-og-VHz"/>
+                        <constraint firstItem="K6V-cw-zwH" firstAttribute="top" secondItem="Bhx-5P-4sL" secondAttribute="top" id="jXo-kA-fIe"/>
+                        <constraint firstAttribute="height" constant="44" id="kYm-XC-Unm"/>
+                        <constraint firstAttribute="bottom" secondItem="jGc-sY-1fb" secondAttribute="bottom" constant="7" id="qGm-4J-WHE"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="K6V-cw-zwH"/>
+                            <exclude reference="jGc-sY-1fb"/>
+                        </mask>
+                        <mask key="constraints">
+                            <exclude reference="kYm-XC-Unm"/>
+                            <exclude reference="4ex-Ec-RbV"/>
+                            <exclude reference="qGm-4J-WHE"/>
+                            <exclude reference="eor-17-0c0"/>
+                            <exclude reference="fo2-og-VHz"/>
+                            <exclude reference="jXo-kA-fIe"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="subviews">
+                            <include reference="K6V-cw-zwH"/>
+                            <include reference="jGc-sY-1fb"/>
+                        </mask>
+                        <mask key="constraints">
+                            <include reference="kYm-XC-Unm"/>
+                            <include reference="4ex-Ec-RbV"/>
+                            <include reference="qGm-4J-WHE"/>
+                            <include reference="eor-17-0c0"/>
+                            <include reference="fo2-og-VHz"/>
+                            <include reference="jXo-kA-fIe"/>
+                        </mask>
+                    </variation>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qca-zB-tbn">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="sectionIndexBackgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="znO-ac-Atg"/>
+                        <outlet property="delegate" destination="-1" id="1OQ-Ah-COH"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="qca-zB-tbn" secondAttribute="trailing" id="AI8-YF-MeP"/>
+                <constraint firstItem="qca-zB-tbn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="AZE-Zq-zO0"/>
+                <constraint firstItem="Bhx-5P-4sL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Fne-hC-gky"/>
+                <constraint firstAttribute="trailing" secondItem="Bhx-5P-4sL" secondAttribute="trailing" id="MBV-di-ZH5"/>
+                <constraint firstItem="Bhx-5P-4sL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="XOv-RZ-Xhn"/>
+                <constraint firstItem="qca-zB-tbn" firstAttribute="top" secondItem="Bhx-5P-4sL" secondAttribute="bottom" constant="3" id="bV8-1b-6ZW"/>
+                <constraint firstAttribute="bottom" secondItem="qca-zB-tbn" secondAttribute="bottom" id="i4R-4a-VtH"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="Bhx-5P-4sL"/>
+                    <exclude reference="qca-zB-tbn"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="Fne-hC-gky"/>
+                    <exclude reference="MBV-di-ZH5"/>
+                    <exclude reference="XOv-RZ-Xhn"/>
+                    <exclude reference="AI8-YF-MeP"/>
+                    <exclude reference="AZE-Zq-zO0"/>
+                    <exclude reference="bV8-1b-6ZW"/>
+                    <exclude reference="i4R-4a-VtH"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="Bhx-5P-4sL"/>
+                    <include reference="qca-zB-tbn"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="Fne-hC-gky"/>
+                    <include reference="MBV-di-ZH5"/>
+                    <include reference="XOv-RZ-Xhn"/>
+                    <include reference="AI8-YF-MeP"/>
+                    <include reference="AZE-Zq-zO0"/>
+                    <include reference="bV8-1b-6ZW"/>
+                    <include reference="i4R-4a-VtH"/>
+                </mask>
+            </variation>
         </view>
     </objects>
 </document>

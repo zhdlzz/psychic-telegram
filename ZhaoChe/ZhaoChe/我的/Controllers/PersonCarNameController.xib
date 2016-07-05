@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PersonCarNameController">
@@ -13,7 +14,53 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入自定义车型名称" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jot-F5-Q5C">
+                    <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="vAm-vB-77v"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="vAm-vB-77v"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact" misplaced="YES">
+                        <rect key="frame" x="0.0" y="25" width="400" height="30"/>
+                        <mask key="constraints">
+                            <include reference="vAm-vB-77v"/>
+                        </mask>
+                    </variation>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Jot-F5-Q5C" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="A5V-LB-l7k"/>
+                <constraint firstAttribute="trailing" secondItem="Jot-F5-Q5C" secondAttribute="trailing" id="SY0-tS-EcP"/>
+                <constraint firstItem="Jot-F5-Q5C" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="oaP-9c-Tgk"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="Jot-F5-Q5C"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="A5V-LB-l7k"/>
+                    <exclude reference="SY0-tS-EcP"/>
+                    <exclude reference="oaP-9c-Tgk"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="Jot-F5-Q5C"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="A5V-LB-l7k"/>
+                    <include reference="SY0-tS-EcP"/>
+                    <include reference="oaP-9c-Tgk"/>
+                </mask>
+            </variation>
         </view>
     </objects>
 </document>
