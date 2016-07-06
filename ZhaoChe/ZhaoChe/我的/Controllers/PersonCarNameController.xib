@@ -27,8 +27,7 @@
                             <exclude reference="vAm-vB-77v"/>
                         </mask>
                     </variation>
-                    <variation key="widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="0.0" y="25" width="400" height="30"/>
+                    <variation key="widthClass=compact">
                         <mask key="constraints">
                             <include reference="vAm-vB-77v"/>
                         </mask>

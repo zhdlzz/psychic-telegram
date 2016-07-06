@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IdentityController">
@@ -160,8 +161,7 @@
                             <exclude reference="N3r-Te-AIg"/>
                         </mask>
                     </variation>
-                    <variation key="widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="0.0" y="91" width="72" height="44"/>
+                    <variation key="widthClass=compact">
                         <mask key="constraints">
                             <include reference="N3r-Te-AIg"/>
                         </mask>
@@ -180,8 +180,7 @@
                             <exclude reference="k6V-Tp-Ubc"/>
                         </mask>
                     </variation>
-                    <variation key="widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="0.0" y="139" width="72" height="44"/>
+                    <variation key="widthClass=compact">
                         <mask key="constraints">
                             <include reference="k6V-Tp-Ubc"/>
                         </mask>
@@ -201,8 +200,7 @@
                             <exclude reference="hF1-O0-bq5"/>
                         </mask>
                     </variation>
-                    <variation key="widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="88" y="100" width="291" height="28"/>
+                    <variation key="widthClass=compact">
                         <mask key="constraints">
                             <include reference="Ohb-EX-4Wz"/>
                             <include reference="hF1-O0-bq5"/>
@@ -225,8 +223,7 @@
                             <exclude reference="gSc-Hw-C7V"/>
                         </mask>
                     </variation>
-                    <variation key="widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="16" y="136" width="400" height="2"/>
+                    <variation key="widthClass=compact">
                         <mask key="constraints">
                             <include reference="aVH-H3-G2x"/>
                             <include reference="gSc-Hw-C7V"/>
@@ -250,8 +247,7 @@
                             <exclude reference="yiX-JT-sfk"/>
                         </mask>
                     </variation>
-                    <variation key="widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="88" y="146" width="86" height="30"/>
+                    <variation key="widthClass=compact">
                         <mask key="constraints">
                             <include reference="ve3-4j-Y6X"/>
                             <include reference="yiX-JT-sfk"/>
@@ -275,8 +271,7 @@
                             <exclude reference="xKN-h9-3bg"/>
                         </mask>
                     </variation>
-                    <variation key="widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="372" y="152" width="8" height="16"/>
+                    <variation key="widthClass=compact">
                         <mask key="constraints">
                             <include reference="9QI-K0-dvK"/>
                             <include reference="xKN-h9-3bg"/>
@@ -293,7 +288,6 @@
                             <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                             <color key="backgroundColor" red="0.23622532894736842" green="0.44659009368550057" blue="0.89411764705882035" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
-                                <constraint firstAttribute="width" constant="330" id="BcP-1M-w3O"/>
                                 <constraint firstAttribute="height" constant="47" id="e0r-TR-i2D">
                                     <variation key="widthClass=compact" constant="40"/>
                                 </constraint>
@@ -303,14 +297,12 @@
                             </state>
                             <variation key="default">
                                 <mask key="constraints">
-                                    <exclude reference="BcP-1M-w3O"/>
                                     <exclude reference="e0r-TR-i2D"/>
                                 </mask>
                             </variation>
                             <variation key="widthClass=compact" misplaced="YES">
-                                <rect key="frame" x="35" y="69" width="330" height="47"/>
+                                <rect key="frame" x="35" y="40" width="330" height="40"/>
                                 <mask key="constraints">
-                                    <include reference="BcP-1M-w3O"/>
                                     <include reference="e0r-TR-i2D"/>
                                 </mask>
                             </variation>
@@ -322,6 +314,7 @@
                     <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstItem="q5d-fa-P7O" firstAttribute="centerX" secondItem="t0p-2c-axa" secondAttribute="centerX" id="AZL-bD-P3U"/>
+                        <constraint firstItem="q5d-fa-P7O" firstAttribute="width" secondItem="t0p-2c-axa" secondAttribute="width" multiplier="0.9" id="N9a-a0-bpT"/>
                         <constraint firstItem="q5d-fa-P7O" firstAttribute="top" secondItem="t0p-2c-axa" secondAttribute="top" constant="40" id="fAU-SK-157"/>
                     </constraints>
                     <variation key="default">
@@ -330,16 +323,17 @@
                         </mask>
                         <mask key="constraints">
                             <exclude reference="AZL-bD-P3U"/>
+                            <exclude reference="N9a-a0-bpT"/>
                             <exclude reference="fAU-SK-157"/>
                         </mask>
                     </variation>
-                    <variation key="widthClass=compact" misplaced="YES">
-                        <rect key="frame" x="0.0" y="184" width="400" height="416"/>
+                    <variation key="widthClass=compact">
                         <mask key="subviews">
                             <include reference="q5d-fa-P7O"/>
                         </mask>
                         <mask key="constraints">
                             <include reference="AZL-bD-P3U"/>
+                            <include reference="N9a-a0-bpT"/>
                             <include reference="fAU-SK-157"/>
                         </mask>
                     </variation>
