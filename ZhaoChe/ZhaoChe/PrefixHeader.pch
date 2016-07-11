@@ -20,5 +20,6 @@
 
 #import "ReactiveCocoa.h"
 #import "YYModel.h"
+#import "HMSegmentedControl.h"
 
 #endif /* PrefixHeader_pch */
