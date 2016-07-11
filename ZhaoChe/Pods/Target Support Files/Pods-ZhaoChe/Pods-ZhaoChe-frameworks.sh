@@ -91,6 +91,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$CONFIGURATION_BUILD_DIR/SDWebImage/SDWebImage.framework"
   install_framework "$CONFIGURATION_BUILD_DIR/TPKeyboardAvoiding/TPKeyboardAvoiding.framework"
   install_framework "$CONFIGURATION_BUILD_DIR/YYModel/YYModel.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/pop/pop.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$CONFIGURATION_BUILD_DIR/AFNetworking/AFNetworking.framework"
@@ -100,4 +101,5 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$CONFIGURATION_BUILD_DIR/SDWebImage/SDWebImage.framework"
   install_framework "$CONFIGURATION_BUILD_DIR/TPKeyboardAvoiding/TPKeyboardAvoiding.framework"
   install_framework "$CONFIGURATION_BUILD_DIR/YYModel/YYModel.framework"
+  install_framework "$CONFIGURATION_BUILD_DIR/pop/pop.framework"
 fi

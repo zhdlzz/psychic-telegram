@@ -7,10 +7,12 @@
 //
 
 #import "PublishView.h"
+#import <pop/POP.h>
 
 @interface PublishView ()
 
 @property (strong, nonatomic) NSArray *infos;
+@property (strong, nonatomic) NSMutableArray *btns;
 
 @end
 
@@ -81,6 +83,8 @@
             
             [btn sizeToFit];
             [self addSubview:btn];
+            
+            [self.btns addObject:btn];
         }
     }
     return self;
@@ -98,6 +102,18 @@
     }
 }
 
+- (void)animate {
+    for (UIButton *btn in self.btns) {
+        // 添加动画
+        POPSpringAnimation *anim = [POPSpringAnimation animationWithPropertyNamed:kPOPViewScaleXY];
+        anim.fromValue = [NSValue valueWithCGSize:CGSizeMake(1.1, 1.1)];
+        anim.toValue = [NSValue valueWithCGSize:CGSizeMake(1., 1.)];
+        anim.springBounciness = 5.;
+        anim.springSpeed = 5.;
+        [btn pop_addAnimation:anim forKey:nil];
+    }
+}
+
 - (NSArray *)infos {
     if (!_infos) {
         _infos = @[
@@ -108,6 +124,13 @@
                    ];
     }
     return _infos;
+}
+
+- (NSMutableArray *)btns {
+    if (!_btns) {
+        _btns = [NSMutableArray arrayWithCapacity:0];
+    }
+    return _btns;
 }
 
 @end
