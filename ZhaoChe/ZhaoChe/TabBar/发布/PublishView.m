@@ -107,10 +107,15 @@
         // 添加动画
         POPSpringAnimation *anim = [POPSpringAnimation animationWithPropertyNamed:kPOPViewScaleXY];
         anim.fromValue = [NSValue valueWithCGSize:CGSizeMake(1.1, 1.1)];
-        anim.toValue = [NSValue valueWithCGSize:CGSizeMake(1., 1.)];
-        anim.springBounciness = 5.;
-        anim.springSpeed = 5.;
+        anim.toValue = [NSValue valueWithCGSize:CGSizeMake(.9, .9)];
         [btn pop_addAnimation:anim forKey:nil];
+        
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(.2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            POPSpringAnimation *anim = [POPSpringAnimation animationWithPropertyNamed:kPOPViewScaleXY];
+            anim.fromValue = [NSValue valueWithCGSize:CGSizeMake(.9, .9)];
+            anim.toValue = [NSValue valueWithCGSize:CGSizeMake(1., 1.)];
+            [btn pop_addAnimation:anim forKey:nil];
+        });
     }
 }
 
