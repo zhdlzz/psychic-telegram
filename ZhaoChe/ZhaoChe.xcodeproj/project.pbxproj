@@ -36,6 +36,7 @@
 		104B6C441D2128A100594FE9 /* PublishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6C431D2128A100594FE9 /* PublishView.m */; };
 		104B6C481D222A8200594FE9 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6C471D222A8200594FE9 /* NetworkManager.m */; };
 		104B6C4B1D222BF700594FE9 /* MBProgressHUD+ZhaoChe.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6C4A1D222BF700594FE9 /* MBProgressHUD+ZhaoChe.m */; };
+		104B6C521D2DE5DC00594FE9 /* UIView+ZhaoChe.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6C511D2DE5DC00594FE9 /* UIView+ZhaoChe.m */; };
 		71DA8368A4234FF576B4126C /* Pods_ZhaoChe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA0D95B2E3578AA59C6EF29 /* Pods_ZhaoChe.framework */; };
 		8023CF661D2CF75B00F69C06 /* SearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8023CF651D2CF75B00F69C06 /* SearchResultViewController.m */; };
 		8023CF691D2CFC9500F69C06 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 8023CF681D2CFC9500F69C06 /* Product.m */; };
@@ -108,6 +109,8 @@
 		104B6C471D222A8200594FE9 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		104B6C491D222BF700594FE9 /* MBProgressHUD+ZhaoChe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+ZhaoChe.h"; sourceTree = "<group>"; };
 		104B6C4A1D222BF700594FE9 /* MBProgressHUD+ZhaoChe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+ZhaoChe.m"; sourceTree = "<group>"; };
+		104B6C501D2DE5DC00594FE9 /* UIView+ZhaoChe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZhaoChe.h"; sourceTree = "<group>"; };
+		104B6C511D2DE5DC00594FE9 /* UIView+ZhaoChe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZhaoChe.m"; sourceTree = "<group>"; };
 		3CB5B7975390EE19120B2C6D /* Pods-ZhaoChe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhaoChe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhaoChe/Pods-ZhaoChe.debug.xcconfig"; sourceTree = "<group>"; };
 		8023CF641D2CF75B00F69C06 /* SearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultViewController.h; sourceTree = "<group>"; };
 		8023CF651D2CF75B00F69C06 /* SearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultViewController.m; sourceTree = "<group>"; };
@@ -224,6 +227,8 @@
 				104B6C2F1D21047100594FE9 /* NSString+ZhaoChe.m */,
 				104B6C491D222BF700594FE9 /* MBProgressHUD+ZhaoChe.h */,
 				104B6C4A1D222BF700594FE9 /* MBProgressHUD+ZhaoChe.m */,
+				104B6C501D2DE5DC00594FE9 /* UIView+ZhaoChe.h */,
+				104B6C511D2DE5DC00594FE9 /* UIView+ZhaoChe.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -550,6 +555,7 @@
 				104B6C301D21047100594FE9 /* NSString+ZhaoChe.m in Sources */,
 				104B6C001D1CC5AA00594FE9 /* VerificationCodeCell.m in Sources */,
 				104B6C4B1D222BF700594FE9 /* MBProgressHUD+ZhaoChe.m in Sources */,
+				104B6C521D2DE5DC00594FE9 /* UIView+ZhaoChe.m in Sources */,
 				104B6C1D1D20D41500594FE9 /* MeViewController.m in Sources */,
 				104B6C481D222A8200594FE9 /* NetworkManager.m in Sources */,
 				104B6BE41D1BD14100594FE9 /* UIColor+ZhaoChe.m in Sources */,

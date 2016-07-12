@@ -15,6 +15,7 @@
 #import "AppMacros.h"
 #import "UIColor+ZhaoChe.h"
 #import "UIButton+ZhaoChe.h"
+#import "UIView+ZhaoChe.h"
 #import "MBProgressHUD+ZhaoChe.h"
 #import "NetworkManager.h"
 

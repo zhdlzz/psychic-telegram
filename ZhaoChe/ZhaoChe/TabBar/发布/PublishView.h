@@ -14,4 +14,6 @@
 @property (copy, nonatomic) void(^dismissBtnClickedBlock)();
 @property (copy, nonatomic) void(^actionBtnClickedBlock)(NSInteger tag);
 
+- (void)animate;
+
 @end
