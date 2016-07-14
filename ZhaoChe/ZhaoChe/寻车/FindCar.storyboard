@@ -17,7 +17,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     </view>
-                    <navigationItem key="navigationItem" title="寻车" id="tiM-TA-Acl"/>
+                    <navigationItem key="navigationItem" title="寻车" id="tiM-TA-Acl">
+                        <barButtonItem key="leftBarButtonItem" title="我的抢单" id="oZ5-JG-2Cb"/>
+                        <barButtonItem key="rightBarButtonItem" title="筛选" id="45F-Sw-WKs"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TrX-bu-ggR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

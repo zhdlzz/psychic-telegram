@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>HMSegmentedControl.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MBProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -52,6 +57,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0B253AA2153E4F1F21D92F3D8A414C64</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>1C3436CEA5C3D39764C5F54374794ECB</key>
 		<dict>
 			<key>primary</key>
@@ -62,32 +72,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>33666D717BCEB40159C82637BA28D4D7</key>
+		<key>5A20A81CF9E4D3A4CA9EBAC44E54A08E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9E826F6390BE6A86919FE72488D308EB</key>
+		<key>5E0B2C977A192295EBC08B8EF63CA6B6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A73F5DDF6416FE8383E020046CD498F7</key>
+		<key>6623F574A954FC158752796601491CE5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AB76F5F0ED4E737EA3316797214B9A50</key>
+		<key>71C1DF39EE1271EA1147F993CA1439A0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B09AD0F46517C0E171E5EC34B63C3D36</key>
+		<key>85E15F2D333C18E15DCFE20657ED1CDB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B3F0CD8C135CC000348212DBA3F744A2</key>
+		<key>8FDB16F3C2D9C60562D3BF709FDB0446</key>
 		<dict>
 			<key>primary</key>
 			<true/>

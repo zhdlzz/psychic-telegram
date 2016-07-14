@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="xFN-4b-wG6" customClass="HeaderScrollView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="226"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="J96-fd-Mv3">
+                    <rect key="frame" x="140" y="99" width="39" height="37"/>
+                    <color key="pageIndicatorTintColor" red="0.81960784313725488" green="0.81960784313725488" blue="0.81960784313725488" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="currentPageIndicatorTintColor" red="0.31372549019607843" green="0.5490196078431373" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                </pageControl>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7FB-d5-Mf2">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="126"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="126" id="5d7-pe-LDr"/>
+                    </constraints>
+                </scrollView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4jc-qG-loc">
+                    <rect key="frame" x="0.0" y="136" width="320" height="90"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="担保交易" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVl-EQ-ikk">
+                            <rect key="frame" x="14.5" y="20" width="80" height="24"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0手续费" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IoF-rb-jKg">
+                            <rect key="frame" x="104.5" y="20" width="73.5" height="24"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <color key="textColor" red="1" green="0.72156862745098038" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="买的放心  卖的省心" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PtY-Vd-pIR">
+                            <rect key="frame" x="14.5" y="54" width="103" height="14.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="担保交易图片" translatesAutoresizingMaskIntoConstraints="NO" id="p5J-Az-E5T">
+                            <rect key="frame" x="189" y="5" width="108" height="80"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="PtY-Vd-pIR" firstAttribute="top" secondItem="sVl-EQ-ikk" secondAttribute="bottom" constant="10" id="2Mj-kK-Obg"/>
+                        <constraint firstItem="IoF-rb-jKg" firstAttribute="leading" secondItem="sVl-EQ-ikk" secondAttribute="trailing" constant="10" id="CR3-Pb-QGq"/>
+                        <constraint firstItem="sVl-EQ-ikk" firstAttribute="top" secondItem="4jc-qG-loc" secondAttribute="top" constant="20" id="N0N-lP-mbn"/>
+                        <constraint firstItem="p5J-Az-E5T" firstAttribute="centerX" secondItem="4jc-qG-loc" secondAttribute="centerX" multiplier="1.52" id="PUG-RU-BGR"/>
+                        <constraint firstItem="IoF-rb-jKg" firstAttribute="centerY" secondItem="sVl-EQ-ikk" secondAttribute="centerY" id="RjK-Zq-8pW"/>
+                        <constraint firstAttribute="height" constant="90" id="V04-Yw-khB"/>
+                        <constraint firstItem="sVl-EQ-ikk" firstAttribute="leading" secondItem="4jc-qG-loc" secondAttribute="leading" constant="15" id="eey-lf-vnq"/>
+                        <constraint firstItem="p5J-Az-E5T" firstAttribute="centerY" secondItem="4jc-qG-loc" secondAttribute="centerY" id="hgV-Oj-Ca4"/>
+                        <constraint firstItem="PtY-Vd-pIR" firstAttribute="leading" secondItem="sVl-EQ-ikk" secondAttribute="leading" id="uDf-ZI-XRb"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="4jc-qG-loc" secondAttribute="bottom" id="HmV-as-xa0"/>
+                <constraint firstAttribute="trailing" secondItem="7FB-d5-Mf2" secondAttribute="trailing" id="ILx-5o-vL3"/>
+                <constraint firstItem="7FB-d5-Mf2" firstAttribute="top" secondItem="xFN-4b-wG6" secondAttribute="top" id="WQR-jv-AKP"/>
+                <constraint firstItem="J96-fd-Mv3" firstAttribute="centerX" secondItem="xFN-4b-wG6" secondAttribute="centerX" id="b0d-Co-XVj"/>
+                <constraint firstItem="4jc-qG-loc" firstAttribute="leading" secondItem="xFN-4b-wG6" secondAttribute="leading" id="ezT-J0-cCy"/>
+                <constraint firstAttribute="trailing" secondItem="4jc-qG-loc" secondAttribute="trailing" id="lFD-1O-CxY"/>
+                <constraint firstAttribute="bottom" secondItem="J96-fd-Mv3" secondAttribute="bottom" constant="90" id="tqu-sc-Nt9"/>
+                <constraint firstItem="7FB-d5-Mf2" firstAttribute="leading" secondItem="xFN-4b-wG6" secondAttribute="leading" id="yMn-bU-Mss"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="pageControl" destination="J96-fd-Mv3" id="Dv0-if-uh4"/>
+                <outlet property="scrollView" destination="7FB-d5-Mf2" id="z5N-lg-I1p"/>
+            </connections>
+            <point key="canvasLocation" x="179" y="392"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="担保交易图片" width="108" height="80"/>
+    </resources>
+</document>
