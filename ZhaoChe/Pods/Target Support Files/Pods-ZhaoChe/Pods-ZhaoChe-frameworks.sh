@@ -84,6 +84,26 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+<<<<<<< HEAD
+  install_framework "Pods-ZhaoChe/AFNetworking.framework"
+  install_framework "Pods-ZhaoChe/HMSegmentedControl.framework"
+  install_framework "Pods-ZhaoChe/MBProgressHUD.framework"
+  install_framework "Pods-ZhaoChe/MJRefresh.framework"
+  install_framework "Pods-ZhaoChe/ReactiveCocoa.framework"
+  install_framework "Pods-ZhaoChe/SDWebImage.framework"
+  install_framework "Pods-ZhaoChe/TPKeyboardAvoiding.framework"
+  install_framework "Pods-ZhaoChe/YYModel.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-ZhaoChe/AFNetworking.framework"
+  install_framework "Pods-ZhaoChe/HMSegmentedControl.framework"
+  install_framework "Pods-ZhaoChe/MBProgressHUD.framework"
+  install_framework "Pods-ZhaoChe/MJRefresh.framework"
+  install_framework "Pods-ZhaoChe/ReactiveCocoa.framework"
+  install_framework "Pods-ZhaoChe/SDWebImage.framework"
+  install_framework "Pods-ZhaoChe/TPKeyboardAvoiding.framework"
+  install_framework "Pods-ZhaoChe/YYModel.framework"
+=======
   install_framework "$CONFIGURATION_BUILD_DIR/AFNetworking/AFNetworking.framework"
   install_framework "$CONFIGURATION_BUILD_DIR/MBProgressHUD/MBProgressHUD.framework"
   install_framework "$CONFIGURATION_BUILD_DIR/MJRefresh/MJRefresh.framework"
@@ -102,4 +122,5 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$CONFIGURATION_BUILD_DIR/TPKeyboardAvoiding/TPKeyboardAvoiding.framework"
   install_framework "$CONFIGURATION_BUILD_DIR/YYModel/YYModel.framework"
   install_framework "$CONFIGURATION_BUILD_DIR/pop/pop.framework"
+>>>>>>> master
 fi
