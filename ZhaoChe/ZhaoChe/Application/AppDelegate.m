@@ -21,8 +21,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    // 测试用
-    [[NSUserDefaults standardUserDefaults] setBool:YES forKey:IS_USER_LOGGED_IN];
+    // 测试用，强制登录
+    [[NSUserDefaults standardUserDefaults] setBool:NO forKey:IS_USER_LOGGED_IN];
     [[NSUserDefaults standardUserDefaults] synchronize];
     
     if ([[NSUserDefaults standardUserDefaults] boolForKey:IS_USER_LOGGED_IN]) { // 跳转主界面

@@ -39,6 +39,9 @@ __LINE__, __func__, ##__VA_ARGS__)
 #define NSLog(...)
 #endif
 
+#define MBPROGRESSHUD_SHOW_SERVER_REQUEST_FAILED [MBProgressHUD hudWithMessage:msg image:nil inView:self.view afterDelay:DEFAULT_DELAY]
+#define MBPROGRESSHUD_SHOW_SERVER_REQUEST_ERROR [MBProgressHUD hudWithMessage:kServerRequestFailed image:nil inView:self.view afterDelay:DEFAULT_DELAY]
+
 //=======================================
 // NSUserDefault
 //=======================================

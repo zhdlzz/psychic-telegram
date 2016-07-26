@@ -14,6 +14,8 @@ NSString * const kServerResponseSuccess = @"0000";
 NSString * const kServerResponseFailure = @"1111";
 NSString * const kServerRequestFailed = @"网络请求失败，请稍后重试。";
 NSString * const kErrorURL = @"http://115.159.90.216/err";
+NSString * const kBaseURL = @"http://192.168.1.73/findCar/";
+NSString * const kBaseURLForImage = @"http://192.168.1.73/";
 
 // http://115.159.90.216/post.log
 
@@ -54,8 +56,16 @@ NSString * const kErrorURL = @"http://115.159.90.216/err";
 
 #pragma mark - Request Methods
 
-- (NSString *)getFullAPIAddressWithKey:(NSString *)key {
-    return [[[NSUserDefaults standardUserDefaults] objectForKey:@"SERVER_APIs"] objectForKey:key];
+//- (NSString *)getFullAPIAddressWithKey:(NSString *)key {
+    //return [[[NSUserDefaults standardUserDefaults] objectForKey:@"SERVER_APIs"] objectForKey:key];
+//}
+
+- (NSString *)getFullAPIWithValue:(NSString *)value {
+    return [kBaseURL stringByAppendingString:value];
+}
+
+- (NSString *)getFullImageURLWithValue:(NSString *)value {
+    return [kBaseURLForImage stringByAppendingString:value];
 }
 
 - (void)requestServerAPI:(NSString *)api
@@ -176,35 +186,25 @@ NSString * const kErrorURL = @"http://115.159.90.216/err";
 
 
 - (NSDictionary *)getRequestHeaders {
-    NSString *channel = @"10001";
-    //NSString *token = [USERDEFAULTS valueForKey:USER_LOGIN_TOKEN];
-    NSString *token = [[NSUserDefaults standardUserDefaults] valueForKey:@"USER_LOGIN_TOKEN"];
-    //NSString *uid = [USERDEFAULTS valueForKey:USER_LOGIN_UID];
-    NSString *uid = [[NSUserDefaults standardUserDefaults] valueForKey:@"USER_LOGIN_UID"];
-//#warning Saving of the UUID
-    NSString *uuid = @"";
-    //NSString *cityID = [USERDEFAULTS objectForKey:CITY_ID];
-    NSString *cityID = [[NSUserDefaults standardUserDefaults] objectForKey:@"CITY_ID"];
-    NSString *systemVersion = [[UIDevice currentDevice] systemVersion];
-    NSString *clientType = [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad ? @"2" : @"1";
-    NSString *platform = [self getPlatform];
-    CGSize screenSize = [[UIScreen mainScreen] bounds].size;
-    screenSize = CGSizeMake(screenSize.width * [UIScreen mainScreen].scale, screenSize.height * [UIScreen mainScreen].scale);
-    
-    NSDictionary *headers = [NSDictionary dictionaryWithObjectsAndKeys:
-                             channel, @"X-CHANNEL",
-                             token ? token : @"", @"X-TOKEN",
-                             uid ? uid : @"", @"X-UID",
-                             uuid ? uuid : @"", @"X-UUID",
-                             cityID ? cityID : @"9", @"X-CITYID",
-                             systemVersion, @"X-SYSTEM",
-                             clientType, @"X-CLIENT-TYPE",
-                             platform ? platform : @"", @"X-UA",
-                             APP_BUILD, @"X-VERSION-CODE",
-                             APP_VERSION, @"X-VERSION-NAME",
-                             [NSString stringWithFormat:@"%.lf*%.lf", screenSize.width, screenSize.height], @"X-RESOLUTION",
-                             nil];
-    return headers;
+    NSString *xToken = [[NSUserDefaults standardUserDefaults] valueForKey:@"X-TOKEN"] ? [[NSUserDefaults standardUserDefaults] valueForKey:@"X-TOKEN"] : @"0";
+    NSString *xPhone = [[NSUserDefaults standardUserDefaults] valueForKey:@"X-PHONE"] ? [[NSUserDefaults standardUserDefaults] valueForKey:@"X-PHONE"] : @"";
+    NSString *xUA = [self getPlatform] ? [self getPlatform] : @"";
+    NSString *xSystem = [[UIDevice currentDevice] systemVersion];
+    NSString *xClientType = [[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad ? @"2" : @"1";
+    NSString *xVersionCode = APP_VERSION;
+    int xSystemTimeInt = [[NSDate date] timeIntervalSince1970];
+    NSString *xSystemTime = [NSString stringWithFormat:@"%d", xSystemTimeInt];
+    NSString *xSign = @"";
+    NSMutableDictionary *headers = [NSMutableDictionary dictionaryWithCapacity:0];
+    [headers setValue:xToken forKey:@"X-TOKEN"];
+    [headers setValue:xPhone forKey:@"X-PHONE"];
+    [headers setValue:xUA forKey:@"X-UA"];
+    [headers setValue:xSystem forKey:@"X-SYSTEM"];
+    [headers setValue:xClientType forKey:@"X-CLIENT-TYPE"];
+    [headers setValue:xVersionCode forKey:@"X-VERSION-CODE"];
+    [headers setValue:xSystemTime forKey:@"X-SYSTEM-TIME"];
+    [headers setValue:xSign forKey:@"X-SIGN"];
+    return [headers copy];
 }
 
 - (NSString *)getPlatform {

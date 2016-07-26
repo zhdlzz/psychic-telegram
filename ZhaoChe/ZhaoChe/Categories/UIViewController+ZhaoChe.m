@@ -30,6 +30,7 @@
             method_exchangeImplementations(originalMethod, swizzledMethod);
         }
     });
+
 }
 
 - (void)zc_viewWillAppear:(BOOL)animated {
@@ -38,6 +39,7 @@
         ![self isKindOfClass:NSClassFromString(@"UINavigationController")] &&
         ![self isKindOfClass:NSClassFromString(@"UICompatibilityInputViewController")] &&
         ![self isKindOfClass:NSClassFromString(@"UIApplicationRotationFollowingControllerNoTouches")] &&
+        ![self isKindOfClass:NSClassFromString(@"UIKeyboardCandidateGridCollectionViewController")] &&
         ![self isKindOfClass:NSClassFromString(@"ZCTabBarController")]){
         NSLog(@">>>当前视图控制器:%@", self);
     }
