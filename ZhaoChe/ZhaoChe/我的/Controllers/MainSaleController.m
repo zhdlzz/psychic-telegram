@@ -99,6 +99,7 @@
     NSArray *arr = @[@"阿尔法罗密欧",@"奥迪",@"宝马",@"宝马"];
     cell.nameLabel.text = arr[indexPath.row];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    [cell.iconBtn setImage:[UIImage imageNamed:@"宝马图标占位"] forState:UIControlStateNormal];
     return cell;
     
 }

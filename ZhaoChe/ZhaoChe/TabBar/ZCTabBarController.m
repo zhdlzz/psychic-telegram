@@ -13,10 +13,13 @@
 #import "MeViewController.h"
 #import "ZCTabBar.h"
 #import "PublishView.h"
-
+#import "PublishCarController.h"
 @interface ZCTabBarController ()
 
 @property (strong, nonatomic) PublishView *publishView;
+
+@property(nonatomic,strong)PublishCarController *publishC;
+@property(nonatomic,strong)HomeViewController *homeC;
 
 @end
 

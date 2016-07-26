@@ -14,6 +14,68 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Z0-5W-zEi">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <state key="normal" title="发布车源"/>
+                    <variation key="widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="71" y="140" width="126" height="46"/>
+                    </variation>
+                    <connections>
+                        <action selector="text:" destination="-1" eventType="touchUpInside" id="9Rv-Tl-cns"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yni-RD-oJx">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.73194861570000003" blue="0.52366918539999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="发布寻车"/>
+                    <variation key="widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="71" y="208" width="121" height="39"/>
+                    </variation>
+                    <connections>
+                        <action selector="second:" destination="-1" eventType="touchUpInside" id="eSZ-h5-1kU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRu-Mt-QIw">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.73194861570000003" blue="0.52366918539999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="管理车源"/>
+                    <variation key="widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="71" y="265" width="121" height="39"/>
+                    </variation>
+                    <connections>
+                        <action selector="third:" destination="-1" eventType="touchUpInside" id="R6W-vK-Db2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaI-c9-knj">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.73194861570000003" blue="0.52366918539999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="管理寻车"/>
+                    <variation key="widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="71" y="318" width="121" height="39"/>
+                    </variation>
+                    <connections>
+                        <action selector="forth:" destination="-1" eventType="touchUpInside" id="Qni-WJ-msh"/>
+                    </connections>
+                </button>
+            </subviews>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="6Z0-5W-zEi"/>
+                    <exclude reference="yni-RD-oJx"/>
+                    <exclude reference="vRu-Mt-QIw"/>
+                    <exclude reference="gaI-c9-knj"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="6Z0-5W-zEi"/>
+                    <include reference="yni-RD-oJx"/>
+                    <include reference="vRu-Mt-QIw"/>
+                    <include reference="gaI-c9-knj"/>
+                </mask>
+            </variation>
         </view>
     </objects>
 </document>

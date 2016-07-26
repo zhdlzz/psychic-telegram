@@ -7,7 +7,9 @@
 //
 
 #import "OrdersViewController.h"
-
+#import "PublishCarController.h"
+#import "PubCarsController.h"
+#import "SearchCarController.h"
 @interface OrdersViewController ()
 
 @end
@@ -24,6 +26,32 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)text:(id)sender {
+    PublishCarController *pubC = [[PublishCarController alloc]init];
+    pubC.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:pubC animated:YES];
+}
+
+- (IBAction)second:(id)sender {
+    SearchCarController *pubC =[[SearchCarController alloc]init];
+    pubC.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:pubC animated:YES];
+}
+
+
+- (IBAction)third:(id)sender {
+    PubCarsController *pubC =[[PubCarsController alloc]init];
+    pubC.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:pubC animated:YES];
+}
+
+- (IBAction)forth:(id)sender {
+}
+
+
+
+
+
 
 /*
 #pragma mark - Navigation

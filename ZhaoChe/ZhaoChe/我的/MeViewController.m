@@ -168,14 +168,15 @@
         [headView addSubview:Icon];
         [headView addSubview:label3];
         return headView;
-    }else
-    return nil;
+    }else{
+        return nil;
+    }
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section == 0) {
         if (indexPath.row == 0) {
             IdentityController *idC = [[IdentityController alloc]init];
-            idC.hidesBottomBarWhenPushed =YES;
+            idC.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:idC animated:YES];
         }
     }
@@ -184,6 +185,7 @@
 -(void)moreInformations
 {
     PersonCenterController *perCC = [[PersonCenterController alloc] init];
+    perCC.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:perCC animated:YES];
 }
 
@@ -203,7 +205,6 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-
 }
 
 

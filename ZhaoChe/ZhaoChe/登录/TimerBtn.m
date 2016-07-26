@@ -25,7 +25,7 @@
 - (void)setStartCounting:(BOOL)startCounting {
     _startCounting = startCounting;
     if (startCounting) {
-        timeLeft = _totalTime == 0 ? 60 : _totalTime;
+        timeLeft = _totalTime == 4 ? 60 : _totalTime;
         _totalTime = timeLeft;
         [self animateBtn];
     }

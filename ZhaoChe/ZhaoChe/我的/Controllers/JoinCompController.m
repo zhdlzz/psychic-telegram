@@ -87,6 +87,7 @@
         {
             UIImageView *imageV = [[UIImageView alloc] initWithFrame:CGRectMake(20, 10, 35, 35)];
             imageV.backgroundColor = [UIColor yellowColor];
+            [imageV setImage:[UIImage imageNamed:@"张飞占位"]];
             [cell.contentView addSubview:imageV];
             cell.nameLabel.hidden = YES;
             cell.introduceLabel.hidden = YES;

@@ -10,4 +10,6 @@
 
 @interface CardIdentityController : UIViewController
 
+@property(nonatomic,strong)UIImage *savedImage;
+
 @end
