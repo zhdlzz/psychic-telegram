@@ -152,8 +152,23 @@
 #pragma mark - Reponse Events
 
 - (void)login {
-    
-    
+    NSString *api = [[NetworkManager sharedManager] getFullAPIWithValue:@"user/doLogin"];
+    NSMutableDictionary *params = [NSMutableDictionary dictionaryWithCapacity:0];
+    [params setValue:self.mobileString forKey:@"phone"];
+    [params setValue:self.codeString forKey:@"code"];
+    [[NetworkManager sharedManager] requestServerAPI:api params:params showHud:YES completionHandler:^(id task, id responseObject, NSError *error) {
+        if (!error) {
+            NSString *code = [responseObject objectForKey:@"code"];
+            NSString *msg = [responseObject objectForKey:@"msg"];
+            if ([code isEqualToString:kServerResponseSuccess]) {
+                // 登陆成功跳转
+            } else {
+                MBPROGRESSHUD_SHOW_SERVER_REQUEST_FAILED;
+            }
+        } else {
+            MBPROGRESSHUD_SHOW_SERVER_REQUEST_ERROR;
+        }
+    }];
 }
 
 #pragma mark - Getters
