@@ -38,7 +38,6 @@
     
     // 全局设置导航栏样式
     [self setupNaviAppearance];
-    
     return YES;
 }
 

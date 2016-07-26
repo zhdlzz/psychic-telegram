@@ -27,6 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
     // 设置背景颜色
     self.view.backgroundColor = [UIColor zc_BackgroundColor];
     
@@ -63,7 +64,6 @@
             switch (tag) {
                 case 0: {
                     NSLog(@">>>发布车源");
-                    
                     [weakSelf dismissPublishView];
                 }
                     break;
