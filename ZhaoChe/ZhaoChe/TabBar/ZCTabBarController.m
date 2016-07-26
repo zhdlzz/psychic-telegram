@@ -30,6 +30,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
     // 设置背景颜色
     self.view.backgroundColor = [UIColor zc_BackgroundColor];
     
@@ -56,6 +57,7 @@
     [self setValue:zcTabBar forKey:@"tabBar"];
     zcTabBar.publishBtnClickedBlock = ^{
         [[UIApplication sharedApplication].keyWindow.rootViewController.view addSubview:self.publishView];
+        [self.publishView animate];
         __weak ZCTabBarController *weakSelf = self;
         self.publishView.dismissBtnClickedBlock = ^{
             [weakSelf dismissPublishView];

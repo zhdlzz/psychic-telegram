@@ -10,6 +10,7 @@
 #import "TPKeyboardAvoidingTableView.h"
 #import "MobileInputCell.h"
 #import "VerificationCodeCell.h"
+#import "NSString+ZhaoChe.h"
 
 @interface LoginViewController () <UITableViewDataSource>
 
@@ -72,14 +73,30 @@
             
             __weak VerificationCodeCell *weakCell = cell;
             [cell setTimerBtnClickedBlock:^{
-
-                // 判断手机号码
-                
-                // 请求登录
-                
-                // 测试
-                [weakCell setTimerBtnCountDown:YES];
+                if (![self.mobileString isValidMobileNum]) { // 判断手机号码
+                    [MBProgressHUD hudWithMessage:@"请输入正确的手机号码" image:nil inView:nil afterDelay:DEFAULT_DELAY];
+                    return ;
+                } else {
+                    [weakCell setTimerBtnCountDown:YES];
+                    NSString *api = [[NetworkManager sharedManager] getFullAPIWithValue:@"user/sendMsg"];
+                    NSMutableDictionary *params = [NSMutableDictionary dictionaryWithCapacity:0];
+                    [params setValue:self.mobileString forKey:@"phone"];
+                    [[NetworkManager sharedManager] requestServerAPI:api params:params showHud:YES completionHandler:^(id task, id responseObject, NSError *error) {
+                        if (!error) {
+                            NSString *code = [responseObject objectForKey:@"code"];
+                            NSString *msg = [responseObject objectForKey:@"msg"];
+                            if ([code isEqualToString:kServerResponseSuccess]) {
+                                //[MBProgressHUD hudWithMessage:@"获取验证码成功" image:nil inView:nil afterDelay:DEFAULT_DELAY];
+                            } else {
+                                MBPROGRESSHUD_SHOW_SERVER_REQUEST_FAILED;
+                            }
+                        } else {
+                            MBPROGRESSHUD_SHOW_SERVER_REQUEST_ERROR;
+                        }
+                    }];
+                }
             }];
+            
             return cell;
         }
             break;
@@ -135,7 +152,23 @@
 #pragma mark - Reponse Events
 
 - (void)login {
-    
+    NSString *api = [[NetworkManager sharedManager] getFullAPIWithValue:@"user/doLogin"];
+    NSMutableDictionary *params = [NSMutableDictionary dictionaryWithCapacity:0];
+    [params setValue:self.mobileString forKey:@"phone"];
+    [params setValue:self.codeString forKey:@"code"];
+    [[NetworkManager sharedManager] requestServerAPI:api params:params showHud:YES completionHandler:^(id task, id responseObject, NSError *error) {
+        if (!error) {
+            NSString *code = [responseObject objectForKey:@"code"];
+            NSString *msg = [responseObject objectForKey:@"msg"];
+            if ([code isEqualToString:kServerResponseSuccess]) {
+                // 登陆成功跳转
+            } else {
+                MBPROGRESSHUD_SHOW_SERVER_REQUEST_FAILED;
+            }
+        } else {
+            MBPROGRESSHUD_SHOW_SERVER_REQUEST_ERROR;
+        }
+    }];
 }
 
 #pragma mark - Getters

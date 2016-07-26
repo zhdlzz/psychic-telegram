@@ -36,6 +36,7 @@
 		104B6C441D2128A100594FE9 /* PublishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6C431D2128A100594FE9 /* PublishView.m */; };
 		104B6C481D222A8200594FE9 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6C471D222A8200594FE9 /* NetworkManager.m */; };
 		104B6C4B1D222BF700594FE9 /* MBProgressHUD+ZhaoChe.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6C4A1D222BF700594FE9 /* MBProgressHUD+ZhaoChe.m */; };
+<<<<<<< HEAD
 		5567892E1D3DCB0700111F1B /* 宝马图标占位.png in Resources */ = {isa = PBXBuildFile; fileRef = 5567892D1D3DCB0700111F1B /* 宝马图标占位.png */; };
 		556789321D3DCE5500111F1B /* 名片认证占位.png in Resources */ = {isa = PBXBuildFile; fileRef = 556789311D3DCE5500111F1B /* 名片认证占位.png */; };
 		556789341D3DCF6900111F1B /* 张飞占位.png in Resources */ = {isa = PBXBuildFile; fileRef = 556789331D3DCF6900111F1B /* 张飞占位.png */; };
@@ -90,7 +91,26 @@
 		55F1DFEA1D33382600ED9018 /* ScrollCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F1DFE81D33382600ED9018 /* ScrollCollectionCell.xib */; };
 		55F1DFEE1D33953C00ED9018 /* ChooseCarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F1DFEC1D33953C00ED9018 /* ChooseCarController.m */; };
 		55F1DFEF1D33953C00ED9018 /* ChooseCarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F1DFED1D33953C00ED9018 /* ChooseCarController.xib */; };
+=======
+		104B6C521D2DE5DC00594FE9 /* UIView+ZhaoChe.m in Sources */ = {isa = PBXBuildFile; fileRef = 104B6C511D2DE5DC00594FE9 /* UIView+ZhaoChe.m */; };
+>>>>>>> master
 		71DA8368A4234FF576B4126C /* Pods_ZhaoChe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA0D95B2E3578AA59C6EF29 /* Pods_ZhaoChe.framework */; };
+		8023CF661D2CF75B00F69C06 /* SearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8023CF651D2CF75B00F69C06 /* SearchResultViewController.m */; };
+		8023CF691D2CFC9500F69C06 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 8023CF681D2CFC9500F69C06 /* Product.m */; };
+		802F20D31D23E49300BC41DC /* NewCarShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 802F20D21D23E49300BC41DC /* NewCarShowView.m */; };
+		802F20D51D23E4AC00BC41DC /* NewCarShowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 802F20D41D23E4AC00BC41DC /* NewCarShowView.xib */; };
+		803778C11D2367C300925142 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 803778C01D2367C300925142 /* HeaderView.m */; };
+		803778C31D2367D500925142 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803778C21D2367D500925142 /* HeaderView.xib */; };
+		803778C61D237CC800925142 /* CarShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 803778C51D237CC800925142 /* CarShowView.m */; };
+		803778CA1D237DE100925142 /* CarShowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803778C91D237DE100925142 /* CarShowView.xib */; };
+		803778CD1D23A7AD00925142 /* HeaderScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 803778CC1D23A7AD00925142 /* HeaderScrollView.m */; };
+		803778CF1D23A85100925142 /* HeaderScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803778CE1D23A85100925142 /* HeaderScrollView.xib */; };
+		804BF8821D22503900034B64 /* HomeTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 804BF8811D22503900034B64 /* HomeTopView.m */; };
+		804BF8841D2250A000034B64 /* HomeTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804BF8831D2250A000034B64 /* HomeTopView.xib */; };
+		804BF88E1D22736F00034B64 /* PatternView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804BF88D1D22736F00034B64 /* PatternView.xib */; };
+		804BF8941D2274C300034B64 /* PatternView.m in Sources */ = {isa = PBXBuildFile; fileRef = 804BF8931D2274C300034B64 /* PatternView.m */; };
+		80D1A5E01D24C2BD00ADEDE1 /* ClickMoreCarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D1A5DF1D24C2BD00ADEDE1 /* ClickMoreCarView.m */; };
+		80D1A5E21D24C2CD00ADEDE1 /* ClickMoreCarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80D1A5E11D24C2CD00ADEDE1 /* ClickMoreCarView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -146,7 +166,10 @@
 		104B6C471D222A8200594FE9 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		104B6C491D222BF700594FE9 /* MBProgressHUD+ZhaoChe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+ZhaoChe.h"; sourceTree = "<group>"; };
 		104B6C4A1D222BF700594FE9 /* MBProgressHUD+ZhaoChe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+ZhaoChe.m"; sourceTree = "<group>"; };
+		104B6C501D2DE5DC00594FE9 /* UIView+ZhaoChe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZhaoChe.h"; sourceTree = "<group>"; };
+		104B6C511D2DE5DC00594FE9 /* UIView+ZhaoChe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZhaoChe.m"; sourceTree = "<group>"; };
 		3CB5B7975390EE19120B2C6D /* Pods-ZhaoChe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhaoChe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhaoChe/Pods-ZhaoChe.debug.xcconfig"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		5567892D1D3DCB0700111F1B /* 宝马图标占位.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "宝马图标占位.png"; sourceTree = "<group>"; };
 		556789311D3DCE5500111F1B /* 名片认证占位.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "名片认证占位.png"; sourceTree = "<group>"; };
 		556789331D3DCF6900111F1B /* 张飞占位.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "张飞占位.png"; sourceTree = "<group>"; };
@@ -226,6 +249,33 @@
 		55F1DFEB1D33953C00ED9018 /* ChooseCarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseCarController.h; sourceTree = "<group>"; };
 		55F1DFEC1D33953C00ED9018 /* ChooseCarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseCarController.m; sourceTree = "<group>"; };
 		55F1DFED1D33953C00ED9018 /* ChooseCarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseCarController.xib; sourceTree = "<group>"; };
+=======
+		8023CF641D2CF75B00F69C06 /* SearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultViewController.h; sourceTree = "<group>"; };
+		8023CF651D2CF75B00F69C06 /* SearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultViewController.m; sourceTree = "<group>"; };
+		8023CF671D2CFC9500F69C06 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		8023CF681D2CFC9500F69C06 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		802F20D11D23E49300BC41DC /* NewCarShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCarShowView.h; sourceTree = "<group>"; };
+		802F20D21D23E49300BC41DC /* NewCarShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCarShowView.m; sourceTree = "<group>"; };
+		802F20D41D23E4AC00BC41DC /* NewCarShowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewCarShowView.xib; sourceTree = "<group>"; };
+		803778BF1D2367C300925142 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		803778C01D2367C300925142 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		803778C21D2367D500925142 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		803778C41D237CC800925142 /* CarShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarShowView.h; sourceTree = "<group>"; };
+		803778C51D237CC800925142 /* CarShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarShowView.m; sourceTree = "<group>"; };
+		803778C91D237DE100925142 /* CarShowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarShowView.xib; sourceTree = "<group>"; };
+		803778CB1D23A7AD00925142 /* HeaderScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderScrollView.h; sourceTree = "<group>"; };
+		803778CC1D23A7AD00925142 /* HeaderScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderScrollView.m; sourceTree = "<group>"; };
+		803778CE1D23A85100925142 /* HeaderScrollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderScrollView.xib; sourceTree = "<group>"; };
+		804BF8801D22503900034B64 /* HomeTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTopView.h; sourceTree = "<group>"; };
+		804BF8811D22503900034B64 /* HomeTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTopView.m; sourceTree = "<group>"; };
+		804BF8831D2250A000034B64 /* HomeTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTopView.xib; sourceTree = "<group>"; };
+		804BF88D1D22736F00034B64 /* PatternView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PatternView.xib; sourceTree = "<group>"; };
+		804BF8921D2274C300034B64 /* PatternView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternView.h; sourceTree = "<group>"; };
+		804BF8931D2274C300034B64 /* PatternView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternView.m; sourceTree = "<group>"; };
+		80D1A5DE1D24C2BD00ADEDE1 /* ClickMoreCarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickMoreCarView.h; sourceTree = "<group>"; };
+		80D1A5DF1D24C2BD00ADEDE1 /* ClickMoreCarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickMoreCarView.m; sourceTree = "<group>"; };
+		80D1A5E11D24C2CD00ADEDE1 /* ClickMoreCarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClickMoreCarView.xib; sourceTree = "<group>"; };
+>>>>>>> master
 		CBA0D95B2E3578AA59C6EF29 /* Pods_ZhaoChe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZhaoChe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F622F029A89A87AD9252E140 /* Pods-ZhaoChe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhaoChe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhaoChe/Pods-ZhaoChe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -318,6 +368,8 @@
 				104B6C2F1D21047100594FE9 /* NSString+ZhaoChe.m */,
 				104B6C491D222BF700594FE9 /* MBProgressHUD+ZhaoChe.h */,
 				104B6C4A1D222BF700594FE9 /* MBProgressHUD+ZhaoChe.m */,
+				104B6C501D2DE5DC00594FE9 /* UIView+ZhaoChe.h */,
+				104B6C511D2DE5DC00594FE9 /* UIView+ZhaoChe.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -388,9 +440,9 @@
 		104B6BDE1D1BC89D00594FE9 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
-				104B6C1F1D20D44200594FE9 /* Home.storyboard */,
-				104B6C231D20D4E100594FE9 /* HomeViewController.h */,
-				104B6C241D20D4E100594FE9 /* HomeViewController.m */,
+				804BF87F1D224ABB00034B64 /* C */,
+				804BF87E1D224AB600034B64 /* V */,
+				804BF87D1D224AB100034B64 /* M */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -438,6 +490,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		556789281D3DC9BE00111F1B /* 占位图片（可删） */ = {
 			isa = PBXGroup;
 			children = (
@@ -619,6 +672,55 @@
 				55689C551D46FAA700506657 /* PubCarCell.xib */,
 			);
 			path = Views;
+=======
+		804BF87D1D224AB100034B64 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				8023CF671D2CFC9500F69C06 /* Product.h */,
+				8023CF681D2CFC9500F69C06 /* Product.m */,
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		804BF87E1D224AB600034B64 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				804BF8801D22503900034B64 /* HomeTopView.h */,
+				804BF8811D22503900034B64 /* HomeTopView.m */,
+				804BF8831D2250A000034B64 /* HomeTopView.xib */,
+				804BF8921D2274C300034B64 /* PatternView.h */,
+				804BF8931D2274C300034B64 /* PatternView.m */,
+				804BF88D1D22736F00034B64 /* PatternView.xib */,
+				803778BF1D2367C300925142 /* HeaderView.h */,
+				803778C01D2367C300925142 /* HeaderView.m */,
+				803778C21D2367D500925142 /* HeaderView.xib */,
+				803778C41D237CC800925142 /* CarShowView.h */,
+				803778C51D237CC800925142 /* CarShowView.m */,
+				803778C91D237DE100925142 /* CarShowView.xib */,
+				803778CB1D23A7AD00925142 /* HeaderScrollView.h */,
+				803778CC1D23A7AD00925142 /* HeaderScrollView.m */,
+				803778CE1D23A85100925142 /* HeaderScrollView.xib */,
+				802F20D11D23E49300BC41DC /* NewCarShowView.h */,
+				802F20D21D23E49300BC41DC /* NewCarShowView.m */,
+				802F20D41D23E4AC00BC41DC /* NewCarShowView.xib */,
+				80D1A5DE1D24C2BD00ADEDE1 /* ClickMoreCarView.h */,
+				80D1A5DF1D24C2BD00ADEDE1 /* ClickMoreCarView.m */,
+				80D1A5E11D24C2CD00ADEDE1 /* ClickMoreCarView.xib */,
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		804BF87F1D224ABB00034B64 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				104B6C1F1D20D44200594FE9 /* Home.storyboard */,
+				104B6C231D20D4E100594FE9 /* HomeViewController.h */,
+				104B6C241D20D4E100594FE9 /* HomeViewController.m */,
+				8023CF641D2CF75B00F69C06 /* SearchResultViewController.h */,
+				8023CF651D2CF75B00F69C06 /* SearchResultViewController.m */,
+			);
+			name = C;
+>>>>>>> master
 			sourceTree = "<group>";
 		};
 		E7CB5144C0E78B417496F4CB /* Pods */ = {
@@ -637,12 +739,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 104B6BCD1D1BC7D500594FE9 /* Build configuration list for PBXNativeTarget "ZhaoChe" */;
 			buildPhases = (
-				AD1C7D928CBED764708A3220 /* Check Pods Manifest.lock */,
+				AD1C7D928CBED764708A3220 /* [CP] Check Pods Manifest.lock */,
 				104B6BB21D1BC7D500594FE9 /* Sources */,
 				104B6BB31D1BC7D500594FE9 /* Frameworks */,
 				104B6BB41D1BC7D500594FE9 /* Resources */,
-				C0B98E2E3962EC7B08CFA879 /* Embed Pods Frameworks */,
-				36D325E23023B4BFB65AA4BF /* Copy Pods Resources */,
+				C0B98E2E3962EC7B08CFA879 /* [CP] Embed Pods Frameworks */,
+				36D325E23023B4BFB65AA4BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -698,11 +800,22 @@
 				55EFB0391D2A3AB100CE8952 /* PersonCarNameController.xib in Resources */,
 				55EFB03E1D2A3DAF00CE8952 /* PersonCenterController.xib in Resources */,
 				104B6C0F1D1D0BD000594FE9 /* NotCourierSans-Bold.otf in Resources */,
+<<<<<<< HEAD
 				55EED6AD1D23C12700394713 /* CompanyController.xib in Resources */,
 				104B6C191D20D3FF00594FE9 /* OrdersViewController.xib in Resources */,
 				104B6BFC1D1CC58000594FE9 /* MobileInputCell.xib in Resources */,
 				55EBA6541D34D312007519AD /* PubCarController.xib in Resources */,
 				55EBA64F1D348397007519AD /* ChooseTypeController.xib in Resources */,
+=======
+				804BF88E1D22736F00034B64 /* PatternView.xib in Resources */,
+				803778CF1D23A85100925142 /* HeaderScrollView.xib in Resources */,
+				804BF8841D2250A000034B64 /* HomeTopView.xib in Resources */,
+				803778C31D2367D500925142 /* HeaderView.xib in Resources */,
+				802F20D51D23E4AC00BC41DC /* NewCarShowView.xib in Resources */,
+				104B6C191D20D3FF00594FE9 /* OrdersViewController.xib in Resources */,
+				104B6BFC1D1CC58000594FE9 /* MobileInputCell.xib in Resources */,
+				803778CA1D237DE100925142 /* CarShowView.xib in Resources */,
+>>>>>>> master
 				104B6BC91D1BC7D500594FE9 /* LaunchScreen.storyboard in Resources */,
 				55F1DFEF1D33953C00ED9018 /* ChooseCarController.xib in Resources */,
 				55EED6B21D23CAE500394713 /* CompIdentityController.xib in Resources */,
@@ -726,23 +839,27 @@
 				55BBC3041D35D331007AC44F /* ContentColorController.xib in Resources */,
 				556789341D3DCF6900111F1B /* 张飞占位.png in Resources */,
 				104B6C201D20D44200594FE9 /* Home.storyboard in Resources */,
+<<<<<<< HEAD
 				55BBC3091D35D591007AC44F /* WController.xib in Resources */,
 				55F15D0D1D224EF00065BD48 /* ZDLMyCenterCell.xib in Resources */,
 				55BBC3131D35DB28007AC44F /* CarController.xib in Resources */,
+=======
+				80D1A5E21D24C2CD00ADEDE1 /* ClickMoreCarView.xib in Resources */,
+>>>>>>> master
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		36D325E23023B4BFB65AA4BF /* Copy Pods Resources */ = {
+		36D325E23023B4BFB65AA4BF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -750,14 +867,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhaoChe/Pods-ZhaoChe-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AD1C7D928CBED764708A3220 /* Check Pods Manifest.lock */ = {
+		AD1C7D928CBED764708A3220 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -765,14 +882,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C0B98E2E3962EC7B08CFA879 /* Embed Pods Frameworks */ = {
+		C0B98E2E3962EC7B08CFA879 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -794,18 +911,27 @@
 				55F1C2111D2DFBFC00383AC2 /* PublishCarController.m in Sources */,
 				55EFC6D11D24B8C300A6D9CC /* CardIdentityCell.m in Sources */,
 				104B6BFB1D1CC58000594FE9 /* MobileInputCell.m in Sources */,
+				803778C61D237CC800925142 /* CarShowView.m in Sources */,
 				104B6C141D20CC4A00594FE9 /* ZCTabBarController.m in Sources */,
 				55BBC2FE1D35CEDA007AC44F /* ChooseWController.m in Sources */,
 				55EBA6531D34D312007519AD /* PubCarController.m in Sources */,
 				104B6BD31D1BC88100594FE9 /* AppDelegate.m in Sources */,
 				104B6BBB1D1BC7D500594FE9 /* main.m in Sources */,
+				8023CF691D2CFC9500F69C06 /* Product.m in Sources */,
 				104B6C251D20D4E100594FE9 /* HomeViewController.m in Sources */,
+<<<<<<< HEAD
 				55EED6AC1D23C12700394713 /* CompanyController.m in Sources */,
+=======
+				80D1A5E01D24C2BD00ADEDE1 /* ClickMoreCarView.m in Sources */,
+>>>>>>> master
 				104B6C441D2128A100594FE9 /* PublishView.m in Sources */,
 				55F1DFEE1D33953C00ED9018 /* ChooseCarController.m in Sources */,
 				104B6C0D1D1D03E100594FE9 /* UIButton+ZhaoChe.m in Sources */,
+				802F20D31D23E49300BC41DC /* NewCarShowView.m in Sources */,
+				8023CF661D2CF75B00F69C06 /* SearchResultViewController.m in Sources */,
 				104B6BF71D1CC43600594FE9 /* LoginViewController.m in Sources */,
 				104B6C181D20D3FF00594FE9 /* OrdersViewController.m in Sources */,
+				803778C11D2367C300925142 /* HeaderView.m in Sources */,
 				104B6C301D21047100594FE9 /* NSString+ZhaoChe.m in Sources */,
 				55689C511D46F5DF00506657 /* PubCarsController.m in Sources */,
 				55EBA64E1D348397007519AD /* ChooseTypeController.m in Sources */,
@@ -818,7 +944,11 @@
 				55689C5B1D47434000506657 /* SearchCarController.m in Sources */,
 				55EBA6581D34E19B007519AD /* PubDetailController.m in Sources */,
 				104B6C4B1D222BF700594FE9 /* MBProgressHUD+ZhaoChe.m in Sources */,
+<<<<<<< HEAD
 				55BBC3121D35DB28007AC44F /* CarController.m in Sources */,
+=======
+				104B6C521D2DE5DC00594FE9 /* UIView+ZhaoChe.m in Sources */,
+>>>>>>> master
 				104B6C1D1D20D41500594FE9 /* MeViewController.m in Sources */,
 				55BBC3031D35D331007AC44F /* ContentColorController.m in Sources */,
 				55EFB0331D2A280B00CE8952 /* MainSaleController.m in Sources */,
@@ -829,9 +959,12 @@
 				55F1DFE91D33382600ED9018 /* ScrollCollectionCell.m in Sources */,
 				55BBC3081D35D591007AC44F /* WController.m in Sources */,
 				104B6C041D1CCD6600594FE9 /* UITableView+ZhaoChe.m in Sources */,
+				804BF8821D22503900034B64 /* HomeTopView.m in Sources */,
+				803778CD1D23A7AD00925142 /* HeaderScrollView.m in Sources */,
 				104B6C2A1D20D52000594FE9 /* FindCarViewController.m in Sources */,
 				104B6C2D1D20EF9C00594FE9 /* ZCTabBar.m in Sources */,
 				104B6BE81D1BE85300594FE9 /* UIViewController+ZhaoChe.m in Sources */,
+				804BF8941D2274C300034B64 /* PatternView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

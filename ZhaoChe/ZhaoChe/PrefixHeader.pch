@@ -15,10 +15,12 @@
 #import "AppMacros.h"
 #import "UIColor+ZhaoChe.h"
 #import "UIButton+ZhaoChe.h"
+#import "UIView+ZhaoChe.h"
 #import "MBProgressHUD+ZhaoChe.h"
 #import "NetworkManager.h"
 
 #import "ReactiveCocoa.h"
 #import "YYModel.h"
+#import "HMSegmentedControl.h"
 
 #endif /* PrefixHeader_pch */

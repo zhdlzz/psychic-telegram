@@ -37,20 +37,24 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     
-    self.publishBtn.bounds = CGRectMake(0, 0, self.publishBtn.currentBackgroundImage.size.width, self.publishBtn.currentBackgroundImage.size.height);
-    self.publishBtn.center = CGPointMake(self.frame.size.width / 2., self.frame.size.height / 2.);
+    CGFloat width = self.width;
+    CGFloat height = self.height;
     
-    CGFloat x = 0;
-    CGFloat y = 0;
-    CGFloat width = self.frame.size.width / 5;
-    CGFloat height = self.frame.size.height;
+    self.publishBtn.width = self.publishBtn.currentBackgroundImage.size.width;
+    self.publishBtn.height = self.publishBtn.currentBackgroundImage.size.height;
+    self.publishBtn.center = CGPointMake(width * 0.5, height * 0.5);
+    
+    CGFloat btnX = 0;
+    CGFloat btnY = 0;
+    CGFloat btnWidth = width / 5;
+    CGFloat btnHeight = height;
     
     NSInteger idx = 0;
     
     for (UIView *btn in self.subviews) {
         if (![btn isKindOfClass:[UIControl class]] || btn == self.publishBtn) continue;
-        x = width * ((idx > 1) ? (idx + 1) : idx);
-        btn.frame = CGRectMake(x, y, width, height);
+        btnX = btnWidth * ((idx > 1) ? (idx + 1) : idx);
+        btn.frame = CGRectMake(btnX, btnY, btnWidth, btnHeight);
         idx++;
     }
 }
